@@ -1,0 +1,11 @@
+set class-of-service forwarding-class rt-traffic local-priority 0
+set class-of-service forwarding-class normal-traffic local-priority 2
+commit
+
+set class-of-service classifier c1 trust-mode dscp
+set class-of-service classifier c1 forwarding-class rt-traffic code-point 8
+commit
+
+set class-of-service interface ge-1/1/3 classifier c1 
+set class-of-service interface ge-1/1/1 classifier c1 
+commit
