@@ -27,17 +27,13 @@
 #include "hash.h"
 
 MODULE_LICENSE("GPL");
-MODULE_AUTHOR("BAI Wei wbaiab@ust.hk");
-MODULE_VERSION("1.0");
+MODULE_AUTHOR("BAI Wei baiwei0427@gmail.com");
+MODULE_VERSION("1.1");
 MODULE_DESCRIPTION("Driver module in end hosts for RoX");
 MODULE_SUPPORTED_DEVICE(DEVICE_NAME)
 
 //RuleTable
 static struct RuleTable rt;
-/// lock for mutli process safety
-//spinlock_t inLock;
-//spinlock_t outLock;
-//spinlock_t globalLock;
 
 //read/write lock
 static rwlock_t my_rwlock;
@@ -61,10 +57,10 @@ static struct nf_hook_ops nfho_outgoing;
 //Incoming packets PREROUTING
 static struct nf_hook_ops nfho_incoming;
 //Search for action based on a packet and direction (incoming 0 and outgoging 1) 
-static struct Action Search(struct sk_buff *,unsigned int);
+static struct Action Search(struct sk_buff *, __u8);
 
 
-static struct Action Search(struct sk_buff *skb,unsigned int direction)
+static struct Action Search(struct sk_buff *skb, __u8 direction)
 {
 	struct Action a;
 	struct Rule r;
@@ -90,8 +86,8 @@ static struct Action Search(struct sk_buff *skb,unsigned int direction)
 	}
 
 	//Get source and destination ip address 
-	r.src_ip=(unsigned int)ip_header->saddr;
-	r.dst_ip=(unsigned int)ip_header->daddr;
+	r.src_ip=ip_header->saddr;
+	r.dst_ip=ip_header->daddr;
 
 	//This packet is an incoming packet, we don't need more information, dst ip address is enough
 	if(direction==1)
@@ -101,29 +97,30 @@ static struct Action Search(struct sk_buff *skb,unsigned int direction)
 	}
 
 	//Get protocol (TCP,UDP,etc)
-	r.protocol=(unsigned int)ip_header->protocol;
+	r.protocol=ip_header->protocol;
 
 	//If protocols are TCP/UDP, we need to get source and destination ports
 	if(ip_header->protocol==IPPROTO_TCP) {         //TCP
 
 		tcp_header = (struct tcphdr *)((__u32 *)ip_header+ ip_header->ihl);
-		r.src_port=htons((unsigned short int) tcp_header->source);
-		r.dst_port=htons((unsigned short int) tcp_header->dest);
+		r.src_port=tcp_header->source;
+		r.dst_port=tcp_header->dest;
 	
 	} else if(ip_header->protocol==IPPROTO_UDP) {  //UDP
 
 		udp_header = (struct udphdr *)((__u32 *)ip_header+ ip_header->ihl);
-		r.src_port=htons((unsigned short int) udp_header->source);
-		r.dst_port=htons((unsigned short int) udp_header->dest);
+		r.src_port=udp_header->source;
+		r.dst_port=udp_header->dest;
 	
 	}
 	
 	//print_rule(&r);
-	if(r.src_port>=10000) {
+	if(ntohs(r.src_port)>=10000) {
 
 		r.src_port=0;
 
-	} else if(r.dst_port>=10000) {
+	}
+	else if(ntohs(r.dst_port)>=10000) {
 	
 		r.dst_port=0;
 	}
@@ -137,15 +134,15 @@ static struct Action Search(struct sk_buff *skb,unsigned int direction)
 //Print packet information
 void print_packet(struct sk_buff *skb)
 {
-	struct timeval tv;         //timeval struct used by do_gettimeofday
-	unsigned long time_value;  //current time value (microsecond)
-	struct iphdr *ip_header;   //ip header struct
-	struct tcphdr *tcp_header; //tcp header struct
-	struct udphdr *udp_header; //udp header struct
-	char src_ip[16];           //source ip address (string)
-	char dst_ip[16];           //destination ip address (string)
-	unsigned int src_port;     //source tcp/udp port
-	unsigned int dst_port;     //destination tcp/udp port
+	struct timeval tv;             //timeval struct used by do_gettimeofday
+	unsigned long time_value;      //current time value (microsecond)
+	struct iphdr *ip_header;       //ip header struct
+	struct tcphdr *tcp_header;     //tcp header struct
+	struct udphdr *udp_header;     //udp header struct
+	char src_ip[16];               //source ip address (string)
+	char dst_ip[16];               //destination ip address (string)
+	unsigned short int src_port;   //source tcp/udp port
+	unsigned short int dst_port;   //destination tcp/udp port
 
 	ip_header=(struct iphdr *)skb_network_header(skb);
 
@@ -167,8 +164,8 @@ void print_packet(struct sk_buff *skb)
 
 		tcp_header = (struct tcphdr *)((__u32 *)ip_header+ ip_header->ihl);
 		//Get source and destination TCP port
-		src_port=htons((unsigned short int) tcp_header->source);
-		dst_port=htons((unsigned short int) tcp_header->dest);
+		src_port=(unsigned short int)ntohs(tcp_header->source);
+		dst_port=(unsigned short int)ntohs(tcp_header->dest);
 		printk(KERN_INFO "%lu us TCP packet from %s:%u to %s:%u\n",time_value,src_ip,src_port,dst_ip,dst_port);
 		return;
 
@@ -176,8 +173,8 @@ void print_packet(struct sk_buff *skb)
 
 		udp_header = (struct udphdr *)((__u32 *)ip_header+ ip_header->ihl);
 		//Get source and destination UDP port
-		src_port=htons((unsigned short int) udp_header->source);
-		dst_port=htons((unsigned short int) udp_header->dest);
+		src_port=(unsigned short int)ntohs(udp_header->source);
+		dst_port=(unsigned short int)ntohs(udp_header->dest);
 		printk(KERN_INFO "%lu us UDP packet from %s:%u to %s:%u\n",time_value,src_ip,src_port,dst_ip,dst_port);
 		return;
 
@@ -299,7 +296,7 @@ unsigned int hook_func_in(unsigned int hooknum, struct sk_buff *skb, const struc
 			a=Search(skb,1);
 			read_unlock_irqrestore(&my_rwlock,flags);
 			//spin_unlock(&inLock);
-			//printk(KERN_INFO "%u %u\n",a.new_ip,a.mark);
+
 			if(a.mark!=0)
 			{
 				skb->mark=a.mark;
@@ -385,24 +382,33 @@ unsigned int hook_func_out(unsigned int hooknum, struct sk_buff *skb, const stru
 //Print information of a Rule
 static void print_rule(struct Rule* r)
 {
-	printk(KERN_INFO "Direction: %u\n",r->direction); 
-	printk(KERN_INFO "Souce IP address: %x\n",r->src_ip); 
-	printk(KERN_INFO "Destination IP address: %x\n",r->dst_ip); 
-	printk(KERN_INFO "Protocol: %u\n",r->protocol); 
-	printk(KERN_INFO "Source port address :%u\n", r->src_port);
-	printk(KERN_INFO "Destination port address :%u\n", r->dst_port);
-	printk(KERN_INFO "New Destination IP address: %x\n", r->a.new_ip);
+	char src_ip[16];               //source ip address (string)
+	char dst_ip[16];               //destination ip address (string)
+	char new_ip[16];               //new ip address (string)
+	unsigned short int src_port;   //source tcp/udp port
+	unsigned short int dst_port;   //destination tcp/udp port
+
+	snprintf(src_ip, 16, "%pI4", &r->src_ip);
+	snprintf(dst_ip, 16, "%pI4", &r->dst_ip);
+	snprintf(new_ip, 16, "%pI4", &(r->a.new_ip));
+	src_port=ntohs(r->src_port);
+	dst_port=ntohs(r->dst_port);
+
+	printk(KERN_INFO "Direction: %hu\n",r->direction); 
+	printk(KERN_INFO "Souce IP address: %s\n",src_ip); 
+	printk(KERN_INFO "Destination IP address: %s\n",dst_ip); 
+	printk(KERN_INFO "Protocol: %hu\n",r->protocol); 
+	printk(KERN_INFO "Source port address :%hu\n", src_port);
+	printk(KERN_INFO "Destination port address :%hu\n", dst_port);
+	printk(KERN_INFO "New Destination IP address: %s\n", new_ip);
 	printk(KERN_INFO "Packet marking: %u\n", r->a.mark);
-	printk(KERN_INFO "DSCP value: %u\n", r->a.dscp);
+	printk(KERN_INFO "DSCP value: %hu\n", r->a.dscp);
 }
 
 static int device_ioctl(struct inode *inode, struct file *file, unsigned int ioctl_num, unsigned long ioctl_param) 
 {
 	struct Rule* r;
 	unsigned long flags;
-	//printk(KERN_INFO "Come into device_ioctl with ioctl_num %u\n",ioctl_num);
-	
-    //spin_lock(&globalLock);
 
 	switch (ioctl_num) {
 

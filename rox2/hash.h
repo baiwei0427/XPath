@@ -341,7 +341,30 @@ static void Empty_Table(struct RuleTable* rt)
 //Print a RuleNode
 static void Print_Node(struct RuleNode* rn)
 {
-	printk(KERN_INFO "ditrction:%u src_ip:%x dst_ip:%x src_port:%u dst_port:%u protocol:%u new_ip:%x mark:%u dscp:%u\n",rn->r.direction,rn->r.src_ip,rn->r.dst_ip,rn->r.src_port,rn->r.dst_port,rn->r.protocol,rn->r.a.new_ip,rn->r.a.mark,rn->r.a.dscp);
+	char src_ip[16];               //source ip address (string)
+	char dst_ip[16];               //destination ip address (string)
+	char new_ip[16];               //new ip address (string)
+	unsigned short int src_port;   //source tcp/udp port
+	unsigned short int dst_port;   //destination tcp/udp port
+
+	snprintf(src_ip, 16, "%pI4", &(rn->r.src_ip));
+	snprintf(dst_ip, 16, "%pI4", &(rn->r.dst_ip));
+	snprintf(new_ip, 16, "%pI4", &(rn->r.a.new_ip));
+	src_port=ntohs(rn->r.src_port);
+	dst_port=ntohs(rn->r.dst_port);
+
+	//printk(KERN_INFO "Direction: %hu\n",r->direction); 
+	//printk(KERN_INFO "Souce IP address: %s\n",src_ip); 
+	//printk(KERN_INFO "Destination IP address: %s\n",dst_ip); 
+	//printk(KERN_INFO "Protocol: %hu\n",r->protocol); 
+	//printk(KERN_INFO "Source port address :%hu\n", src_port);
+	//printk(KERN_INFO "Destination port address :%hu\n", dst_port);
+	//printk(KERN_INFO "New Destination IP address: %s\n", new_ip);
+	//printk(KERN_INFO "Packet marking: %u\n", r->a.mark);
+	//printk(KERN_INFO "DSCP value: %hu\n", r->a.dscp);
+
+
+	printk(KERN_INFO "ditrction:%hu src_ip:%s dst_ip:%s protocol:%hu src_port:%hu dst_port:%hu new_ip:%s mark:%u dscp:%hu\n",rn->r.direction,src_ip,dst_ip,rn->r.protocol,src_port,dst_port,new_ip,rn->r.a.mark,rn->r.a.dscp);
 }
 
 //Print a RuleList
