@@ -1,0 +1,27 @@
+------------------------------------------------------------
+Client connecting to 192.168.12.3, TCP port 6099
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  4] local 192.168.15.3 port 41744 connected with 192.168.12.3 port 6099
+[ ID] Interval       Transfer     Bandwidth
+[  4]  0.0- 1.0 sec  8.77 MBytes  73.6 Mbits/sec
+[  4]  1.0- 2.0 sec  8.55 MBytes  71.8 Mbits/sec
+[  4]  2.0- 3.0 sec  10.3 MBytes  86.0 Mbits/sec
+[  4]  3.0- 4.0 sec  9.75 MBytes  81.8 Mbits/sec
+[  4]  4.0- 5.0 sec  10.4 MBytes  87.3 Mbits/sec
+[  4]  5.0- 6.0 sec  9.05 MBytes  75.9 Mbits/sec
+[  4]  6.0- 7.0 sec  10.7 MBytes  89.8 Mbits/sec
+[  4]  7.0- 8.0 sec  9.79 MBytes  82.1 Mbits/sec
+[  4]  8.0- 9.0 sec  9.44 MBytes  79.2 Mbits/sec
+[  4]  9.0-10.0 sec  8.25 MBytes  69.2 Mbits/sec
+[  4] 10.0-11.0 sec  7.63 MBytes  64.0 Mbits/sec
+[  4] 11.0-12.0 sec  8.15 MBytes  68.4 Mbits/sec
+[  4] 12.0-13.0 sec  9.70 MBytes  81.3 Mbits/sec
+[  4] 13.0-14.0 sec  8.63 MBytes  72.4 Mbits/sec
+[  4] 14.0-15.0 sec  10.2 MBytes  85.6 Mbits/sec
+[  4] 15.0-16.0 sec  10.2 MBytes  85.7 Mbits/sec
+[  4] 16.0-17.0 sec  10.4 MBytes  87.0 Mbits/sec
+[  4] 17.0-18.0 sec  10.3 MBytes  86.6 Mbits/sec
+[  4] 18.0-19.0 sec  11.0 MBytes  92.6 Mbits/sec
+[  4] 19.0-20.0 sec  10.3 MBytes  86.0 Mbits/sec
+[  4]  0.0-20.7 sec    200 MBytes  81.1 Mbits/sec

@@ -1,0 +1,24 @@
+------------------------------------------------------------
+Client connecting to 192.168.13.2, TCP port 6023
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  4] local 192.168.16.2 port 43220 connected with 192.168.13.2 port 6023
+[ ID] Interval       Transfer     Bandwidth
+[  4]  0.0- 1.0 sec  7.35 MBytes  61.7 Mbits/sec
+[  4]  1.0- 2.0 sec  6.48 MBytes  54.3 Mbits/sec
+[  4]  2.0- 3.0 sec  7.09 MBytes  59.4 Mbits/sec
+[  4]  3.0- 4.0 sec  5.79 MBytes  48.6 Mbits/sec
+[  4]  4.0- 5.0 sec  9.67 MBytes  81.1 Mbits/sec
+[  4]  5.0- 6.0 sec  10.0 MBytes  84.3 Mbits/sec
+[  4]  6.0- 7.0 sec  10.8 MBytes  90.8 Mbits/sec
+[  4]  7.0- 8.0 sec  12.2 MBytes    102 Mbits/sec
+[  4]  8.0- 9.0 sec  10.1 MBytes  84.7 Mbits/sec
+[  4]  9.0-10.0 sec  14.2 MBytes    119 Mbits/sec
+[  4] 10.0-11.0 sec  14.1 MBytes    119 Mbits/sec
+[  4] 11.0-12.0 sec  10.9 MBytes  91.6 Mbits/sec
+[  4] 12.0-13.0 sec  11.6 MBytes  97.6 Mbits/sec
+[  4] 13.0-14.0 sec  11.9 MBytes  99.9 Mbits/sec
+[  4] 14.0-15.0 sec  12.3 MBytes    103 Mbits/sec
+[  4] 15.0-16.0 sec  14.4 MBytes    121 Mbits/sec
+[  4] 16.0-17.0 sec  14.8 MBytes    124 Mbits/sec
+[  4]  0.0-17.8 sec    200 MBytes  94.5 Mbits/sec

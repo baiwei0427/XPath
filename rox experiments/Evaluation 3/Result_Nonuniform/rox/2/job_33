@@ -1,0 +1,10 @@
+------------------------------------------------------------
+Client connecting to 192.168.11.2, TCP port 7033
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  4] local 192.168.14.3 port 54460 connected with 192.168.11.2 port 7033
+[ ID] Interval       Transfer     Bandwidth
+[  4]  0.0- 1.0 sec  31.2 MBytes    262 Mbits/sec
+[  4]  1.0- 2.0 sec  33.0 MBytes    276 Mbits/sec
+[  4]  2.0- 3.0 sec  29.9 MBytes    251 Mbits/sec
+[  4]  0.0- 3.1 sec    100 MBytes    270 Mbits/sec

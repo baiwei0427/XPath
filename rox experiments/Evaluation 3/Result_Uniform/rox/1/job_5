@@ -1,0 +1,22 @@
+------------------------------------------------------------
+Client connecting to 192.168.11.2, TCP port 5275
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  5] local 192.168.14.2 port 54362 connected with 192.168.11.2 port 5275
+[ ID] Interval       Transfer     Bandwidth
+[  5]  0.0- 1.0 sec  27.6 MBytes    232 Mbits/sec
+[  5]  1.0- 2.0 sec  26.5 MBytes    222 Mbits/sec
+[  5]  2.0- 3.0 sec  27.1 MBytes    227 Mbits/sec
+[  5]  3.0- 4.0 sec  13.3 MBytes    112 Mbits/sec
+[  5]  4.0- 5.0 sec  26.4 MBytes    222 Mbits/sec
+[  5]  5.0- 6.0 sec  23.9 MBytes    200 Mbits/sec
+[  5]  6.0- 7.0 sec  28.7 MBytes    241 Mbits/sec
+[  5]  7.0- 8.0 sec  17.7 MBytes    149 Mbits/sec
+[  5]  8.0- 9.0 sec  25.4 MBytes    213 Mbits/sec
+[  5]  9.0-10.0 sec  23.2 MBytes    195 Mbits/sec
+[  5] 10.0-11.0 sec  20.9 MBytes    175 Mbits/sec
+[  5] 11.0-12.0 sec  24.1 MBytes    202 Mbits/sec
+[  5] 12.0-13.0 sec  31.1 MBytes    261 Mbits/sec
+[  5] 13.0-14.0 sec  48.3 MBytes    405 Mbits/sec
+[  5] 14.0-15.0 sec  80.0 MBytes    671 Mbits/sec
+[  5]  0.0-15.4 sec    488 MBytes    266 Mbits/sec

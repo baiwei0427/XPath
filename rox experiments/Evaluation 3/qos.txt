@@ -1,0 +1,39 @@
+set class-of-service forwarding-class f1 local-priority 0
+set class-of-service forwarding-class f2 local-priority 7
+commit
+
+set class-of-service scheduler 1 mode WRR
+set class-of-service scheduler 1 weight 1
+commit
+
+set class-of-service scheduler 2 mode WRR
+set class-of-service scheduler 2 weight 9
+commit
+
+set class-of-service classifier c1 trust-mode dscp
+set class-of-service classifier c1 forwarding-class f1 code-point 0
+set class-of-service classifier c1 forwarding-class f1 scheduler 1
+
+set class-of-service classifier c1 forwarding-class f2 code-point 8
+set class-of-service classifier c1 forwarding-class f2 scheduler 2
+commit
+
+set class-of-service interface ge-1/1/1 classifier c1 
+set class-of-service interface ge-1/1/2 classifier c1
+set class-of-service interface ge-1/1/3 classifier c1
+set class-of-service interface ge-1/1/4 classifier c1 
+set class-of-service interface ge-1/1/5 classifier c1
+set class-of-service interface ge-1/1/6 classifier c1
+set class-of-service interface ge-1/1/7 classifier c1 
+set class-of-service interface ge-1/1/8 classifier c1
+set class-of-service interface ge-1/1/9 classifier c1
+set class-of-service interface ge-1/1/10 classifier c1 
+set class-of-service interface ge-1/1/11 classifier c1
+set class-of-service interface ge-1/1/12 classifier c1
+set class-of-service interface ge-1/1/13 classifier c1 
+set class-of-service interface ge-1/1/14 classifier c1
+set class-of-service interface ge-1/1/15 classifier c1
+set class-of-service interface ge-1/1/16 classifier c1 
+set class-of-service interface ge-1/1/17 classifier c1
+set class-of-service interface ge-1/1/18 classifier c1
+commit

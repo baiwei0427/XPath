@@ -1,0 +1,10 @@
+------------------------------------------------------------
+Client connecting to 192.168.13.3, TCP port 7026
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  5] local 192.168.16.2 port 52560 connected with 192.168.13.3 port 7026
+[ ID] Interval       Transfer     Bandwidth
+[  5]  0.0- 1.0 sec  55.9 MBytes    469 Mbits/sec
+[  5]  1.0- 2.0 sec  56.3 MBytes    472 Mbits/sec
+[  5]  2.0- 3.0 sec  56.2 MBytes    471 Mbits/sec
+[  5]  0.0- 3.6 sec    200 MBytes    471 Mbits/sec

@@ -1,0 +1,18 @@
+------------------------------------------------------------
+Client connecting to 192.168.11.2, TCP port 7032
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  4] local 192.168.14.2 port 42042 connected with 192.168.11.2 port 7032
+[ ID] Interval       Transfer     Bandwidth
+[  4]  0.0- 1.0 sec  40.8 MBytes    342 Mbits/sec
+[  4]  1.0- 2.0 sec  33.8 MBytes    284 Mbits/sec
+[  4]  2.0- 3.0 sec  27.2 MBytes    228 Mbits/sec
+[  4]  3.0- 4.0 sec  21.6 MBytes    181 Mbits/sec
+[  4]  4.0- 5.0 sec  31.1 MBytes    261 Mbits/sec
+[  4]  5.0- 6.0 sec  40.4 MBytes    339 Mbits/sec
+[  4]  6.0- 7.0 sec  36.8 MBytes    309 Mbits/sec
+[  4]  7.0- 8.0 sec  33.7 MBytes    283 Mbits/sec
+[  4]  8.0- 9.0 sec  22.9 MBytes    192 Mbits/sec
+[  4]  9.0-10.0 sec  30.0 MBytes    252 Mbits/sec
+[  4] 10.0-11.0 sec  70.1 MBytes    588 Mbits/sec
+[  4]  0.0-11.2 sec    400 MBytes    301 Mbits/sec

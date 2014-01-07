@@ -1,0 +1,14 @@
+------------------------------------------------------------
+Client connecting to 192.168.13.3, TCP port 6054
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  4] local 192.168.16.3 port 58769 connected with 192.168.13.3 port 6054
+[ ID] Interval       Transfer     Bandwidth
+[  4]  0.0- 1.0 sec  13.7 MBytes    115 Mbits/sec
+[  4]  1.0- 2.0 sec  11.7 MBytes  98.1 Mbits/sec
+[  4]  2.0- 3.0 sec  13.6 MBytes    114 Mbits/sec
+[  4]  3.0- 4.0 sec  12.8 MBytes    107 Mbits/sec
+[  4]  4.0- 5.0 sec  11.9 MBytes  99.5 Mbits/sec
+[  4]  5.0- 6.0 sec  9.95 MBytes  83.4 Mbits/sec
+[  4]  6.0- 7.0 sec  12.5 MBytes    105 Mbits/sec
+[  4]  0.0- 7.7 sec    100 MBytes    108 Mbits/sec

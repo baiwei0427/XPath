@@ -1,0 +1,14 @@
+------------------------------------------------------------
+Client connecting to 192.168.11.2, TCP port 7114
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  5] local 192.168.14.3 port 42477 connected with 192.168.11.2 port 7114
+[ ID] Interval       Transfer     Bandwidth
+[  5]  0.0- 1.0 sec  25.4 MBytes    213 Mbits/sec
+[  5]  1.0- 2.0 sec  30.1 MBytes    252 Mbits/sec
+[  5]  2.0- 3.0 sec  27.9 MBytes    234 Mbits/sec
+[  5]  3.0- 4.0 sec  33.3 MBytes    279 Mbits/sec
+[  5]  4.0- 5.0 sec  30.2 MBytes    253 Mbits/sec
+[  5]  5.0- 6.0 sec  30.3 MBytes    254 Mbits/sec
+[  5]  6.0- 7.0 sec  41.5 MBytes    348 Mbits/sec
+[  5]  0.0- 7.5 sec    250 MBytes    279 Mbits/sec

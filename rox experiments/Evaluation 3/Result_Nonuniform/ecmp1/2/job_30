@@ -1,0 +1,14 @@
+------------------------------------------------------------
+Client connecting to 192.168.11.1, TCP port 6030
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  4] local 192.168.14.3 port 58818 connected with 192.168.11.1 port 6030
+[ ID] Interval       Transfer     Bandwidth
+[  4]  0.0- 1.0 sec  23.6 MBytes    198 Mbits/sec
+[  4]  1.0- 2.0 sec  9.13 MBytes  76.6 Mbits/sec
+[  4]  2.0- 3.0 sec  9.70 MBytes  81.3 Mbits/sec
+[  4]  3.0- 4.0 sec  9.88 MBytes  82.9 Mbits/sec
+[  4]  4.0- 5.0 sec  8.39 MBytes  70.4 Mbits/sec
+[  4]  5.0- 6.0 sec  9.51 MBytes  79.8 Mbits/sec
+[  4]  6.0- 7.0 sec  11.2 MBytes  93.8 Mbits/sec
+[  4]  0.0- 7.7 sec    100 MBytes    109 Mbits/sec

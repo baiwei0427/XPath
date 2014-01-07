@@ -1,0 +1,38 @@
+------------------------------------------------------------
+Client connecting to 192.168.12.1, TCP port 6093
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  4] local 192.168.15.3 port 41834 connected with 192.168.12.1 port 6093
+[ ID] Interval       Transfer     Bandwidth
+[  4]  0.0- 1.0 sec  9.19 MBytes  77.1 Mbits/sec
+[  4]  1.0- 2.0 sec  5.20 MBytes  43.6 Mbits/sec
+[  4]  2.0- 3.0 sec  6.05 MBytes  50.7 Mbits/sec
+[  4]  3.0- 4.0 sec  5.36 MBytes  45.0 Mbits/sec
+[  4]  4.0- 5.0 sec  5.80 MBytes  48.7 Mbits/sec
+[  4]  5.0- 6.0 sec  6.23 MBytes  52.3 Mbits/sec
+[  4]  6.0- 7.0 sec  6.47 MBytes  54.3 Mbits/sec
+[  4]  7.0- 8.0 sec  5.32 MBytes  44.6 Mbits/sec
+[  4]  8.0- 9.0 sec  5.59 MBytes  46.9 Mbits/sec
+[  4]  9.0-10.0 sec  6.83 MBytes  57.3 Mbits/sec
+[  4] 10.0-11.0 sec  5.45 MBytes  45.7 Mbits/sec
+[  4] 11.0-12.0 sec  5.72 MBytes  48.0 Mbits/sec
+[  4] 12.0-13.0 sec  5.59 MBytes  46.9 Mbits/sec
+[  4] 13.0-14.0 sec  6.56 MBytes  55.1 Mbits/sec
+[  4] 14.0-15.0 sec  6.48 MBytes  54.3 Mbits/sec
+[  4] 15.0-16.0 sec  6.27 MBytes  52.6 Mbits/sec
+[  4] 16.0-17.0 sec  4.96 MBytes  41.6 Mbits/sec
+[  4] 17.0-18.0 sec  5.18 MBytes  43.5 Mbits/sec
+[  4] 18.0-19.0 sec  5.60 MBytes  47.0 Mbits/sec
+[  4] 19.0-20.0 sec  5.26 MBytes  44.1 Mbits/sec
+[  4] 20.0-21.0 sec  6.25 MBytes  52.4 Mbits/sec
+[  4] 21.0-22.0 sec  6.95 MBytes  58.3 Mbits/sec
+[  4] 22.0-23.0 sec  7.03 MBytes  59.0 Mbits/sec
+[  4] 23.0-24.0 sec  7.91 MBytes  66.4 Mbits/sec
+[  4] 24.0-25.0 sec  6.75 MBytes  56.6 Mbits/sec
+[  4] 25.0-26.0 sec  7.14 MBytes  59.9 Mbits/sec
+[  4] 26.0-27.0 sec  5.73 MBytes  48.0 Mbits/sec
+[  4] 27.0-28.0 sec  6.90 MBytes  57.9 Mbits/sec
+[  4] 28.0-29.0 sec  7.27 MBytes  61.0 Mbits/sec
+[  4] 29.0-30.0 sec  7.23 MBytes  60.7 Mbits/sec
+[  4] 30.0-31.0 sec  10.5 MBytes  88.4 Mbits/sec
+[  4]  0.0-31.1 sec    200 MBytes  54.0 Mbits/sec

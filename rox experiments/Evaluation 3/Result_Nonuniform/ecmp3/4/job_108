@@ -1,0 +1,37 @@
+------------------------------------------------------------
+Client connecting to 192.168.13.3, TCP port 6108
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  4] local 192.168.16.3 port 50664 connected with 192.168.13.3 port 6108
+[ ID] Interval       Transfer     Bandwidth
+[  4]  0.0- 1.0 sec  5.38 MBytes  45.1 Mbits/sec
+[  4]  1.0- 2.0 sec  7.99 MBytes  67.0 Mbits/sec
+[  4]  2.0- 3.0 sec  6.09 MBytes  51.1 Mbits/sec
+[  4]  3.0- 4.0 sec  4.84 MBytes  40.6 Mbits/sec
+[  4]  4.0- 5.0 sec  6.57 MBytes  55.1 Mbits/sec
+[  4]  5.0- 6.0 sec  5.37 MBytes  45.0 Mbits/sec
+[  4]  6.0- 7.0 sec  5.27 MBytes  44.2 Mbits/sec
+[  4]  7.0- 8.0 sec  6.27 MBytes  52.6 Mbits/sec
+[  4]  8.0- 9.0 sec  4.55 MBytes  38.2 Mbits/sec
+[  4]  9.0-10.0 sec  5.25 MBytes  44.0 Mbits/sec
+[  4] 10.0-11.0 sec  5.76 MBytes  48.3 Mbits/sec
+[  4] 11.0-12.0 sec  5.66 MBytes  47.4 Mbits/sec
+[  4] 12.0-13.0 sec  6.47 MBytes  54.3 Mbits/sec
+[  4] 13.0-14.0 sec  5.70 MBytes  47.8 Mbits/sec
+[  4] 14.0-15.0 sec  6.58 MBytes  55.2 Mbits/sec
+[  4] 15.0-16.0 sec  7.08 MBytes  59.4 Mbits/sec
+[  4] 16.0-17.0 sec  9.70 MBytes  81.3 Mbits/sec
+[  4] 17.0-18.0 sec  8.68 MBytes  72.8 Mbits/sec
+[  4] 18.0-19.0 sec  6.38 MBytes  53.5 Mbits/sec
+[  4] 19.0-20.0 sec  6.30 MBytes  52.8 Mbits/sec
+[  4] 20.0-21.0 sec  5.00 MBytes  41.9 Mbits/sec
+[  4] 21.0-22.0 sec  7.36 MBytes  61.7 Mbits/sec
+[  4] 22.0-23.0 sec  6.88 MBytes  57.7 Mbits/sec
+[  4] 23.0-24.0 sec  7.17 MBytes  60.2 Mbits/sec
+[  4] 24.0-25.0 sec  5.68 MBytes  47.6 Mbits/sec
+[  4] 25.0-26.0 sec  7.31 MBytes  61.3 Mbits/sec
+[  4] 26.0-27.0 sec  6.89 MBytes  57.8 Mbits/sec
+[  4] 27.0-28.0 sec  8.88 MBytes  74.4 Mbits/sec
+[  4] 28.0-29.0 sec  6.77 MBytes  56.8 Mbits/sec
+[  4] 29.0-30.0 sec  10.3 MBytes  86.7 Mbits/sec
+[  4]  0.0-30.1 sec    200 MBytes  55.7 Mbits/sec

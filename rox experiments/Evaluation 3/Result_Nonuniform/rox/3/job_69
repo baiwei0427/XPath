@@ -1,0 +1,10 @@
+------------------------------------------------------------
+Client connecting to 192.168.12.2, TCP port 7069
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  5] local 192.168.15.3 port 38928 connected with 192.168.12.2 port 7069
+[ ID] Interval       Transfer     Bandwidth
+[  5]  0.0- 1.0 sec  38.8 MBytes    326 Mbits/sec
+[  5]  1.0- 2.0 sec  38.1 MBytes    320 Mbits/sec
+[  5]  2.0- 3.0 sec  43.9 MBytes    368 Mbits/sec
+[  5]  0.0- 3.7 sec    150 MBytes    336 Mbits/sec

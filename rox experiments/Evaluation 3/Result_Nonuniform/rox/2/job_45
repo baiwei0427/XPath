@@ -1,0 +1,9 @@
+------------------------------------------------------------
+Client connecting to 192.168.12.3, TCP port 7045
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  5] local 192.168.15.3 port 55184 connected with 192.168.12.3 port 7045
+[ ID] Interval       Transfer     Bandwidth
+[  5]  0.0- 1.0 sec  39.0 MBytes    327 Mbits/sec
+[  5]  1.0- 2.0 sec  38.8 MBytes    325 Mbits/sec
+[  5]  0.0- 2.5 sec    100 MBytes    332 Mbits/sec

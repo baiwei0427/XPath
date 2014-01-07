@@ -1,0 +1,9 @@
+------------------------------------------------------------
+Client connecting to 192.168.13.2, TCP port 6018
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  4] local 192.168.16.3 port 59707 connected with 192.168.13.2 port 6018
+[ ID] Interval       Transfer     Bandwidth
+[  4]  0.0- 1.0 sec  60.8 MBytes    510 Mbits/sec
+[  4]  1.0- 2.0 sec  34.0 MBytes    286 Mbits/sec
+[  4]  0.0- 2.1 sec  97.7 MBytes    395 Mbits/sec

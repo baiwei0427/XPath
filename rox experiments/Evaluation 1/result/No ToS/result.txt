@@ -1,0 +1,74 @@
+41_2.pcap
+1768us
+1933us
+1926us
+2046us
+1844us
+49ms Delay ACK
+
+42_2.pcap
+1657us
+1652us
+1689us
+1818us
+1812us
+45ms Delay ACK
+
+43_2.pcap
+1740us
+1765us
+1850us
+1879us
+1812us
+1834us
+1865us
+45ms Delay ACK
+
+44_2.pcap
+3353us
+3489us
+3492us
+3421us
+3422us
+3419us
+43ms Delay ACK
+
+45_2.pcap
+1735us
+1877us
+1991us
+1994us
+1949us
+40ms Delay ACK
+
+46_2.pcap
+1948us
+1757us
+1907us
+2053us
+2436us
+43ms Delay ACK
+
+47_2.pcap
+3710us
+3899us
+3893us
+3801us
+3837us
+38ms Delay ACK
+
+48_2.pcap
+1893us
+1862us
+1959us
+1875us
+1952us
+40ms Delay ACK
+
+
+
+
+
+
+
+

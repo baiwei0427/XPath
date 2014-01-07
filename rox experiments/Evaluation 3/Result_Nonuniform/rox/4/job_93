@@ -1,0 +1,12 @@
+------------------------------------------------------------
+Client connecting to 192.168.12.1, TCP port 7093
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  5] local 192.168.15.3 port 42555 connected with 192.168.12.1 port 7093
+[ ID] Interval       Transfer     Bandwidth
+[  5]  0.0- 1.0 sec  34.7 MBytes    291 Mbits/sec
+[  5]  1.0- 2.0 sec  38.2 MBytes    321 Mbits/sec
+[  5]  2.0- 3.0 sec  36.2 MBytes    304 Mbits/sec
+[  5]  3.0- 4.0 sec  37.3 MBytes    313 Mbits/sec
+[  5]  4.0- 5.0 sec  35.4 MBytes    297 Mbits/sec
+[  5]  0.0- 5.4 sec    200 MBytes    311 Mbits/sec

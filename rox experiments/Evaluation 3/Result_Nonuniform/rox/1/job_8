@@ -1,0 +1,12 @@
+------------------------------------------------------------
+Client connecting to 192.168.11.3, TCP port 7008
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  4] local 192.168.14.2 port 59597 connected with 192.168.11.3 port 7008
+[ ID] Interval       Transfer     Bandwidth
+[  4]  0.0- 1.0 sec  41.1 MBytes    344 Mbits/sec
+[  4]  1.0- 2.0 sec  38.4 MBytes    322 Mbits/sec
+[  4]  2.0- 3.0 sec  37.9 MBytes    318 Mbits/sec
+[  4]  3.0- 4.0 sec  32.6 MBytes    273 Mbits/sec
+[  4]  4.0- 5.0 sec  43.8 MBytes    368 Mbits/sec
+[  4]  0.0- 5.1 sec    200 MBytes    328 Mbits/sec

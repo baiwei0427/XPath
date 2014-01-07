@@ -1,0 +1,10 @@
+------------------------------------------------------------
+Client connecting to 192.168.11.3, TCP port 7063
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  4] local 192.168.14.3 port 50850 connected with 192.168.11.3 port 7063
+[ ID] Interval       Transfer     Bandwidth
+[  4]  0.0- 1.0 sec  37.9 MBytes    318 Mbits/sec
+[  4]  1.0- 2.0 sec  37.7 MBytes    316 Mbits/sec
+[  4]  2.0- 3.0 sec  39.9 MBytes    335 Mbits/sec
+[  4]  0.0- 3.7 sec    150 MBytes    336 Mbits/sec

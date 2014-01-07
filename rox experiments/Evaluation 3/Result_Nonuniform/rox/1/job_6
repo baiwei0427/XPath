@@ -1,0 +1,8 @@
+------------------------------------------------------------
+Client connecting to 192.168.11.2, TCP port 7006
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  5] local 192.168.14.3 port 47032 connected with 192.168.11.2 port 7006
+[ ID] Interval       Transfer     Bandwidth
+[  5]  0.0- 1.0 sec  32.7 MBytes    274 Mbits/sec
+[  5]  0.0- 1.6 sec  50.0 MBytes    269 Mbits/sec

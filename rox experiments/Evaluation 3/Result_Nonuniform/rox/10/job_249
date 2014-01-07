@@ -1,0 +1,21 @@
+------------------------------------------------------------
+Client connecting to 192.168.11.2, TCP port 7249
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  4] local 192.168.14.3 port 40101 connected with 192.168.11.2 port 7249
+[ ID] Interval       Transfer     Bandwidth
+[  4]  0.0- 1.0 sec  37.2 MBytes    312 Mbits/sec
+[  4]  1.0- 2.0 sec  35.4 MBytes    297 Mbits/sec
+[  4]  2.0- 3.0 sec  33.5 MBytes    281 Mbits/sec
+[  4]  3.0- 4.0 sec  33.2 MBytes    279 Mbits/sec
+[  4]  4.0- 5.0 sec  36.2 MBytes    304 Mbits/sec
+[  4]  5.0- 6.0 sec  30.5 MBytes    256 Mbits/sec
+[  4]  6.0- 7.0 sec  29.6 MBytes    248 Mbits/sec
+[  4]  7.0- 8.0 sec  25.8 MBytes    216 Mbits/sec
+[  4]  8.0- 9.0 sec  37.7 MBytes    316 Mbits/sec
+[  4]  9.0-10.0 sec  35.0 MBytes    293 Mbits/sec
+[  4] 10.0-11.0 sec  33.4 MBytes    281 Mbits/sec
+[  4] 11.0-12.0 sec  31.8 MBytes    266 Mbits/sec
+[  4] 12.0-13.0 sec  30.1 MBytes    253 Mbits/sec
+[  4] 13.0-14.0 sec  34.2 MBytes    287 Mbits/sec
+[  4]  0.0-14.7 sec    500 MBytes    286 Mbits/sec

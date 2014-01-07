@@ -1,0 +1,18 @@
+------------------------------------------------------------
+Client connecting to 192.168.11.3, TCP port 7198
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  5] local 192.168.14.3 port 36864 connected with 192.168.11.3 port 7198
+[ ID] Interval       Transfer     Bandwidth
+[  5]  0.0- 1.0 sec  39.9 MBytes    335 Mbits/sec
+[  5]  1.0- 2.0 sec  39.7 MBytes    333 Mbits/sec
+[  5]  2.0- 3.0 sec  41.1 MBytes    344 Mbits/sec
+[  5]  3.0- 4.0 sec  34.2 MBytes    287 Mbits/sec
+[  5]  4.0- 5.0 sec  35.8 MBytes    300 Mbits/sec
+[  5]  5.0- 6.0 sec  36.3 MBytes    305 Mbits/sec
+[  5]  6.0- 7.0 sec  34.1 MBytes    286 Mbits/sec
+[  5]  7.0- 8.0 sec  37.8 MBytes    317 Mbits/sec
+[  5]  8.0- 9.0 sec  26.4 MBytes    221 Mbits/sec
+[  5]  9.0-10.0 sec  33.1 MBytes    278 Mbits/sec
+[  5] 10.0-11.0 sec  40.3 MBytes    338 Mbits/sec
+[  5]  0.0-11.0 sec    400 MBytes    304 Mbits/sec

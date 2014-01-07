@@ -1,0 +1,24 @@
+------------------------------------------------------------
+Client connecting to 192.168.11.2, TCP port 6005
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  4] local 192.168.14.2 port 34566 connected with 192.168.11.2 port 6005
+[ ID] Interval       Transfer     Bandwidth
+[  4]  0.0- 1.0 sec  15.4 MBytes    129 Mbits/sec
+[  4]  1.0- 2.0 sec  8.23 MBytes  69.1 Mbits/sec
+[  4]  2.0- 3.0 sec  8.69 MBytes  72.9 Mbits/sec
+[  4]  3.0- 4.0 sec  8.43 MBytes  70.7 Mbits/sec
+[  4]  4.0- 5.0 sec  7.76 MBytes  65.1 Mbits/sec
+[  4]  5.0- 6.0 sec  6.84 MBytes  57.4 Mbits/sec
+[  4]  6.0- 7.0 sec  9.42 MBytes  79.0 Mbits/sec
+[  4]  7.0- 8.0 sec  10.4 MBytes  87.6 Mbits/sec
+[  4]  8.0- 9.0 sec  9.84 MBytes  82.6 Mbits/sec
+[  4]  9.0-10.0 sec  11.0 MBytes  92.3 Mbits/sec
+[  4] 10.0-11.0 sec  11.0 MBytes  91.9 Mbits/sec
+[  4] 11.0-12.0 sec  10.4 MBytes  87.6 Mbits/sec
+[  4] 12.0-13.0 sec  10.9 MBytes  91.2 Mbits/sec
+[  4] 13.0-14.0 sec  11.8 MBytes  98.8 Mbits/sec
+[  4] 14.0-15.0 sec  12.0 MBytes    100 Mbits/sec
+[  4] 15.0-16.0 sec  12.2 MBytes    102 Mbits/sec
+[  4] 16.0-17.0 sec  17.9 MBytes    150 Mbits/sec
+[  4]  0.0-17.9 sec    200 MBytes  93.6 Mbits/sec

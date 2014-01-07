@@ -1,0 +1,25 @@
+------------------------------------------------------------
+Client connecting to 192.168.12.3, TCP port 6045
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  4] local 192.168.15.3 port 55708 connected with 192.168.12.3 port 6045
+[ ID] Interval       Transfer     Bandwidth
+[  4]  0.0- 1.0 sec  5.07 MBytes  42.5 Mbits/sec
+[  4]  1.0- 2.0 sec  5.77 MBytes  48.4 Mbits/sec
+[  4]  2.0- 3.0 sec  4.84 MBytes  40.6 Mbits/sec
+[  4]  3.0- 4.0 sec  5.06 MBytes  42.5 Mbits/sec
+[  4]  4.0- 5.0 sec  4.49 MBytes  37.7 Mbits/sec
+[  4]  5.0- 6.0 sec  4.98 MBytes  41.7 Mbits/sec
+[  4]  6.0- 7.0 sec  4.25 MBytes  35.7 Mbits/sec
+[  4]  7.0- 8.0 sec  4.31 MBytes  36.2 Mbits/sec
+[  4]  8.0- 9.0 sec  5.09 MBytes  42.7 Mbits/sec
+[  4]  9.0-10.0 sec  4.47 MBytes  37.5 Mbits/sec
+[  4] 10.0-11.0 sec  3.91 MBytes  32.8 Mbits/sec
+[  4] 11.0-12.0 sec  6.02 MBytes  50.5 Mbits/sec
+[  4] 12.0-13.0 sec  5.55 MBytes  46.5 Mbits/sec
+[  4] 13.0-14.0 sec  4.99 MBytes  41.9 Mbits/sec
+[  4] 14.0-15.0 sec  4.80 MBytes  40.2 Mbits/sec
+[  4] 15.0-16.0 sec  4.94 MBytes  41.4 Mbits/sec
+[  4] 16.0-17.0 sec  6.01 MBytes  50.4 Mbits/sec
+[  4] 17.0-18.0 sec  11.1 MBytes  93.3 Mbits/sec
+[  4]  0.0-18.3 sec    100 MBytes  45.7 Mbits/sec

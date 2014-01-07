@@ -1,0 +1,23 @@
+------------------------------------------------------------
+Client connecting to 192.168.12.3, TCP port 6017
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  5] local 192.168.15.2 port 49117 connected with 192.168.12.3 port 6017
+[ ID] Interval       Transfer     Bandwidth
+[  5]  0.0- 1.0 sec  10.9 MBytes  91.6 Mbits/sec
+[  5]  1.0- 2.0 sec  10.6 MBytes  88.7 Mbits/sec
+[  5]  2.0- 3.0 sec  12.1 MBytes    101 Mbits/sec
+[  5]  3.0- 4.0 sec  8.20 MBytes  68.8 Mbits/sec
+[  5]  4.0- 5.0 sec  7.27 MBytes  60.9 Mbits/sec
+[  5]  5.0- 6.0 sec  9.32 MBytes  78.2 Mbits/sec
+[  5]  6.0- 7.0 sec  7.09 MBytes  59.4 Mbits/sec
+[  5]  7.0- 8.0 sec  13.2 MBytes    111 Mbits/sec
+[  5]  8.0- 9.0 sec  14.7 MBytes    124 Mbits/sec
+[  5]  9.0-10.0 sec  13.8 MBytes    116 Mbits/sec
+[  5] 10.0-11.0 sec  14.5 MBytes    122 Mbits/sec
+[  5] 11.0-12.0 sec  10.1 MBytes  84.4 Mbits/sec
+[  5] 12.0-13.0 sec  10.4 MBytes  87.6 Mbits/sec
+[  5] 13.0-14.0 sec  11.6 MBytes  97.0 Mbits/sec
+[  5] 14.0-15.0 sec  15.5 MBytes    130 Mbits/sec
+[  5] 15.0-16.0 sec  21.8 MBytes    183 Mbits/sec
+[  5]  0.0-16.3 sec    200 MBytes    103 Mbits/sec

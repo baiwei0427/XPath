@@ -1,0 +1,9 @@
+------------------------------------------------------------
+Client connecting to 192.168.11.3, TCP port 7036
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  5] local 192.168.14.3 port 59826 connected with 192.168.11.3 port 7036
+[ ID] Interval       Transfer     Bandwidth
+[  5]  0.0- 1.0 sec  38.1 MBytes    320 Mbits/sec
+[  5]  1.0- 2.0 sec  34.6 MBytes    290 Mbits/sec
+[  5]  0.0- 2.7 sec    100 MBytes    311 Mbits/sec

@@ -1,0 +1,16 @@
+------------------------------------------------------------
+Client connecting to 192.168.13.2, TCP port 7186
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  5] local 192.168.16.3 port 44157 connected with 192.168.13.2 port 7186
+[ ID] Interval       Transfer     Bandwidth
+[  5]  0.0- 1.0 sec  41.2 MBytes    346 Mbits/sec
+[  5]  1.0- 2.0 sec  37.5 MBytes    314 Mbits/sec
+[  5]  2.0- 3.0 sec  37.6 MBytes    315 Mbits/sec
+[  5]  3.0- 4.0 sec  37.3 MBytes    313 Mbits/sec
+[  5]  4.0- 5.0 sec  37.4 MBytes    314 Mbits/sec
+[  5]  5.0- 6.0 sec  37.7 MBytes    316 Mbits/sec
+[  5]  6.0- 7.0 sec  37.3 MBytes    313 Mbits/sec
+[  5]  7.0- 8.0 sec  37.7 MBytes    316 Mbits/sec
+[  5]  8.0- 9.0 sec  37.3 MBytes    313 Mbits/sec
+[  5]  0.0- 9.4 sec    350 MBytes    312 Mbits/sec

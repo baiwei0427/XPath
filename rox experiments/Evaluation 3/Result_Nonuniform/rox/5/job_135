@@ -1,0 +1,13 @@
+------------------------------------------------------------
+Client connecting to 192.168.13.3, TCP port 7135
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  4] local 192.168.16.3 port 34884 connected with 192.168.13.3 port 7135
+[ ID] Interval       Transfer     Bandwidth
+[  4]  0.0- 1.0 sec  38.2 MBytes    320 Mbits/sec
+[  4]  1.0- 2.0 sec  37.6 MBytes    315 Mbits/sec
+[  4]  2.0- 3.0 sec  37.7 MBytes    316 Mbits/sec
+[  4]  3.0- 4.0 sec  37.3 MBytes    313 Mbits/sec
+[  4]  4.0- 5.0 sec  37.7 MBytes    316 Mbits/sec
+[  4]  5.0- 6.0 sec  37.2 MBytes    312 Mbits/sec
+[  4]  0.0- 6.6 sec    250 MBytes    320 Mbits/sec

@@ -1,0 +1,8 @@
+------------------------------------------------------------
+Client connecting to 192.168.12.3, TCP port 7018
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  4] local 192.168.15.3 port 43783 connected with 192.168.12.3 port 7018
+[ ID] Interval       Transfer     Bandwidth
+[  4]  0.0- 1.0 sec  37.7 MBytes    316 Mbits/sec
+[  4]  0.0- 1.3 sec  50.0 MBytes    334 Mbits/sec

@@ -1,0 +1,41 @@
+------------------------------------------------------------
+Client connecting to 192.168.13.3, TCP port 6135
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  4] local 192.168.16.3 port 44905 connected with 192.168.13.3 port 6135
+[ ID] Interval       Transfer     Bandwidth
+[  4]  0.0- 1.0 sec  6.76 MBytes  56.7 Mbits/sec
+[  4]  1.0- 2.0 sec  8.31 MBytes  69.7 Mbits/sec
+[  4]  2.0- 3.0 sec  7.17 MBytes  60.2 Mbits/sec
+[  4]  3.0- 4.0 sec  7.95 MBytes  66.7 Mbits/sec
+[  4]  4.0- 5.0 sec  7.43 MBytes  62.3 Mbits/sec
+[  4]  5.0- 6.0 sec  5.62 MBytes  47.2 Mbits/sec
+[  4]  6.0- 7.0 sec  6.48 MBytes  54.4 Mbits/sec
+[  4]  7.0- 8.0 sec  6.76 MBytes  56.7 Mbits/sec
+[  4]  8.0- 9.0 sec  8.14 MBytes  68.3 Mbits/sec
+[  4]  9.0-10.0 sec  7.03 MBytes  59.0 Mbits/sec
+[  4] 10.0-11.0 sec  6.68 MBytes  56.0 Mbits/sec
+[  4] 11.0-12.0 sec  8.62 MBytes  72.4 Mbits/sec
+[  4] 12.0-13.0 sec  6.11 MBytes  51.2 Mbits/sec
+[  4] 13.0-14.0 sec  6.18 MBytes  51.8 Mbits/sec
+[  4] 14.0-15.0 sec  5.67 MBytes  47.6 Mbits/sec
+[  4] 15.0-16.0 sec  5.90 MBytes  49.5 Mbits/sec
+[  4] 16.0-17.0 sec  8.24 MBytes  69.1 Mbits/sec
+[  4] 17.0-18.0 sec  7.50 MBytes  62.9 Mbits/sec
+[  4] 18.0-19.0 sec  7.03 MBytes  59.0 Mbits/sec
+[  4] 19.0-20.0 sec  7.24 MBytes  60.8 Mbits/sec
+[  4] 20.0-21.0 sec  7.28 MBytes  61.1 Mbits/sec
+[  4] 21.0-22.0 sec  6.11 MBytes  51.2 Mbits/sec
+[  4] 22.0-23.0 sec  6.39 MBytes  53.6 Mbits/sec
+[  4] 23.0-24.0 sec  7.10 MBytes  59.6 Mbits/sec
+[  4] 24.0-25.0 sec  5.88 MBytes  49.3 Mbits/sec
+[  4] 25.0-26.0 sec  5.56 MBytes  46.7 Mbits/sec
+[  4] 26.0-27.0 sec  6.20 MBytes  52.0 Mbits/sec
+[  4] 27.0-28.0 sec  5.08 MBytes  42.6 Mbits/sec
+[  4] 28.0-29.0 sec  7.74 MBytes  64.9 Mbits/sec
+[  4] 29.0-30.0 sec  8.21 MBytes  68.9 Mbits/sec
+[  4] 30.0-31.0 sec  9.97 MBytes  83.6 Mbits/sec
+[  4] 31.0-32.0 sec  8.89 MBytes  74.6 Mbits/sec
+[  4] 32.0-33.0 sec  6.90 MBytes  57.9 Mbits/sec
+[  4] 33.0-34.0 sec  12.0 MBytes    100 Mbits/sec
+[  4]  0.0-34.3 sec    250 MBytes  61.1 Mbits/sec

@@ -1,0 +1,19 @@
+------------------------------------------------------------
+Client connecting to 192.168.12.3, TCP port 7234
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  4] local 192.168.15.3 port 35371 connected with 192.168.12.3 port 7234
+[ ID] Interval       Transfer     Bandwidth
+[  4]  0.0- 1.0 sec  35.4 MBytes    297 Mbits/sec
+[  4]  1.0- 2.0 sec  37.7 MBytes    316 Mbits/sec
+[  4]  2.0- 3.0 sec  34.8 MBytes    292 Mbits/sec
+[  4]  3.0- 4.0 sec  40.5 MBytes    339 Mbits/sec
+[  4]  4.0- 5.0 sec  35.0 MBytes    294 Mbits/sec
+[  4]  5.0- 6.0 sec  36.0 MBytes    302 Mbits/sec
+[  4]  6.0- 7.0 sec  35.5 MBytes    298 Mbits/sec
+[  4]  7.0- 8.0 sec  34.9 MBytes    293 Mbits/sec
+[  4]  8.0- 9.0 sec  35.7 MBytes    299 Mbits/sec
+[  4]  9.0-10.0 sec  31.8 MBytes    266 Mbits/sec
+[  4] 10.0-11.0 sec  31.5 MBytes    264 Mbits/sec
+[  4] 11.0-12.0 sec  38.3 MBytes    321 Mbits/sec
+[  4]  0.0-12.5 sec    450 MBytes    302 Mbits/sec

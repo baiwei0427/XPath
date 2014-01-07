@@ -1,0 +1,12 @@
+------------------------------------------------------------
+Client connecting to 192.168.12.2, TCP port 7014
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  5] local 192.168.15.2 port 49126 connected with 192.168.12.2 port 7014
+[ ID] Interval       Transfer     Bandwidth
+[  5]  0.0- 1.0 sec  31.3 MBytes    263 Mbits/sec
+[  5]  1.0- 2.0 sec  36.0 MBytes    302 Mbits/sec
+[  5]  2.0- 3.0 sec  40.1 MBytes    337 Mbits/sec
+[  5]  3.0- 4.0 sec  41.5 MBytes    348 Mbits/sec
+[  5]  4.0- 5.0 sec  47.0 MBytes    395 Mbits/sec
+[  5]  0.0- 5.1 sec    200 MBytes    332 Mbits/sec

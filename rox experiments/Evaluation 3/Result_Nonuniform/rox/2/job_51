@@ -1,0 +1,9 @@
+------------------------------------------------------------
+Client connecting to 192.168.13.2, TCP port 7051
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  4] local 192.168.16.3 port 57536 connected with 192.168.13.2 port 7051
+[ ID] Interval       Transfer     Bandwidth
+[  4]  0.0- 1.0 sec  38.2 MBytes    320 Mbits/sec
+[  4]  1.0- 2.0 sec  36.3 MBytes    304 Mbits/sec
+[  4]  0.0- 2.7 sec    100 MBytes    311 Mbits/sec

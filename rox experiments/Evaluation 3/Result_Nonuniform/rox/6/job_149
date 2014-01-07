@@ -1,0 +1,38 @@
+------------------------------------------------------------
+Client connecting to 192.168.12.2, TCP port 7149
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  4] local 192.168.15.2 port 34615 connected with 192.168.12.2 port 7149
+[ ID] Interval       Transfer     Bandwidth
+[  4]  0.0- 1.0 sec  38.6 MBytes    324 Mbits/sec
+[  4]  1.0- 2.0 sec  32.9 MBytes    276 Mbits/sec
+[  4]  2.0- 3.0 sec  31.8 MBytes    266 Mbits/sec
+[  4]  3.0- 4.0 sec  22.2 MBytes    186 Mbits/sec
+[  4]  4.0- 5.0 sec  19.2 MBytes    161 Mbits/sec
+[  4]  5.0- 6.0 sec  22.7 MBytes    191 Mbits/sec
+[  4]  6.0- 7.0 sec  15.7 MBytes    131 Mbits/sec
+[  4]  7.0- 8.0 sec  24.1 MBytes    202 Mbits/sec
+[  4]  8.0- 9.0 sec  39.0 MBytes    327 Mbits/sec
+[  4]  9.0-10.0 sec  40.3 MBytes    338 Mbits/sec
+[  4] 10.0-11.0 sec  27.1 MBytes    227 Mbits/sec
+[  4] 11.0-12.0 sec  32.3 MBytes    271 Mbits/sec
+[  4] 12.0-13.0 sec  29.8 MBytes    250 Mbits/sec
+[  4] 13.0-14.0 sec  33.4 MBytes    280 Mbits/sec
+[  4] 14.0-15.0 sec  32.0 MBytes    269 Mbits/sec
+[  4] 15.0-16.0 sec  32.3 MBytes    271 Mbits/sec
+[  4] 16.0-17.0 sec  35.0 MBytes    294 Mbits/sec
+[  4] 17.0-18.0 sec  36.5 MBytes    307 Mbits/sec
+[  4] 18.0-19.0 sec  36.5 MBytes    307 Mbits/sec
+[  4] 19.0-20.0 sec  37.5 MBytes    315 Mbits/sec
+[  4] 20.0-21.0 sec  36.5 MBytes    307 Mbits/sec
+[  4] 21.0-22.0 sec  37.0 MBytes    310 Mbits/sec
+[  4] 22.0-23.0 sec  34.0 MBytes    285 Mbits/sec
+[  4] 23.0-24.0 sec  34.7 MBytes    291 Mbits/sec
+[  4] 24.0-25.0 sec  41.0 MBytes    344 Mbits/sec
+[  4] 25.0-26.0 sec  41.3 MBytes    346 Mbits/sec
+[  4] 26.0-27.0 sec  40.2 MBytes    338 Mbits/sec
+[  4] 27.0-28.0 sec  58.5 MBytes    491 Mbits/sec
+[  4] 28.0-29.0 sec  75.8 MBytes    636 Mbits/sec
+[  4] 29.0-30.0 sec  73.3 MBytes    615 Mbits/sec
+[  4] 30.0-31.0 sec  70.8 MBytes    594 Mbits/sec
+[  4]  0.0-31.6 sec  1.17 GBytes    319 Mbits/sec

@@ -1,0 +1,29 @@
+------------------------------------------------------------
+Client connecting to 192.168.13.2, TCP port 6213
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  4] local 192.168.16.3 port 34004 connected with 192.168.13.2 port 6213
+[ ID] Interval       Transfer     Bandwidth
+[  4]  0.0- 1.0 sec  18.7 MBytes    157 Mbits/sec
+[  4]  1.0- 2.0 sec  22.6 MBytes    190 Mbits/sec
+[  4]  2.0- 3.0 sec  14.9 MBytes    125 Mbits/sec
+[  4]  3.0- 4.0 sec  10.3 MBytes  86.5 Mbits/sec
+[  4]  4.0- 5.0 sec  15.4 MBytes    129 Mbits/sec
+[  4]  5.0- 6.0 sec  18.1 MBytes    152 Mbits/sec
+[  4]  6.0- 7.0 sec  16.7 MBytes    140 Mbits/sec
+[  4]  7.0- 8.0 sec  17.0 MBytes    143 Mbits/sec
+[  4]  8.0- 9.0 sec  16.3 MBytes    137 Mbits/sec
+[  4]  9.0-10.0 sec  17.8 MBytes    150 Mbits/sec
+[  4] 10.0-11.0 sec  20.2 MBytes    170 Mbits/sec
+[  4] 11.0-12.0 sec  19.4 MBytes    163 Mbits/sec
+[  4] 12.0-13.0 sec  18.4 MBytes    154 Mbits/sec
+[  4] 13.0-14.0 sec  18.5 MBytes    156 Mbits/sec
+[  4] 14.0-15.0 sec  18.5 MBytes    156 Mbits/sec
+[  4] 15.0-16.0 sec  16.3 MBytes    137 Mbits/sec
+[  4] 16.0-17.0 sec  17.0 MBytes    143 Mbits/sec
+[  4] 17.0-18.0 sec  17.0 MBytes    142 Mbits/sec
+[  4] 18.0-19.0 sec  17.4 MBytes    146 Mbits/sec
+[  4] 19.0-20.0 sec  25.0 MBytes    209 Mbits/sec
+[  4] 20.0-21.0 sec  19.4 MBytes    163 Mbits/sec
+[  4] 21.0-22.0 sec  15.5 MBytes    130 Mbits/sec
+[  4]  0.0-22.5 sec    400 MBytes    149 Mbits/sec

@@ -1,0 +1,24 @@
+------------------------------------------------------------
+Client connecting to 192.168.12.2, TCP port 6042
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  5] local 192.168.15.3 port 60516 connected with 192.168.12.2 port 6042
+[ ID] Interval       Transfer     Bandwidth
+[  5]  0.0- 1.0 sec  6.66 MBytes  55.8 Mbits/sec
+[  5]  1.0- 2.0 sec  4.66 MBytes  39.1 Mbits/sec
+[  5]  2.0- 3.0 sec  5.51 MBytes  46.2 Mbits/sec
+[  5]  3.0- 4.0 sec  6.57 MBytes  55.1 Mbits/sec
+[  5]  4.0- 5.0 sec  5.99 MBytes  50.3 Mbits/sec
+[  5]  5.0- 6.0 sec  6.87 MBytes  57.6 Mbits/sec
+[  5]  6.0- 7.0 sec  6.20 MBytes  52.0 Mbits/sec
+[  5]  7.0- 8.0 sec  6.03 MBytes  50.6 Mbits/sec
+[  5]  8.0- 9.0 sec  4.38 MBytes  36.8 Mbits/sec
+[  5]  9.0-10.0 sec  4.69 MBytes  39.3 Mbits/sec
+[  5] 10.0-11.0 sec  4.20 MBytes  35.2 Mbits/sec
+[  5] 11.0-12.0 sec  3.83 MBytes  32.1 Mbits/sec
+[  5] 12.0-13.0 sec  5.37 MBytes  45.0 Mbits/sec
+[  5] 13.0-14.0 sec  4.71 MBytes  39.5 Mbits/sec
+[  5] 14.0-15.0 sec  6.13 MBytes  51.4 Mbits/sec
+[  5] 15.0-16.0 sec  7.27 MBytes  60.9 Mbits/sec
+[  5] 16.0-17.0 sec  8.63 MBytes  72.4 Mbits/sec
+[  5]  0.0-17.2 sec    100 MBytes  48.6 Mbits/sec

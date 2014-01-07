@@ -1,0 +1,20 @@
+------------------------------------------------------------
+Client connecting to 192.168.12.2, TCP port 7258
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  4] local 192.168.15.3 port 44749 connected with 192.168.12.2 port 7258
+[ ID] Interval       Transfer     Bandwidth
+[  4]  0.0- 1.0 sec  37.7 MBytes    316 Mbits/sec
+[  4]  1.0- 2.0 sec  37.0 MBytes    310 Mbits/sec
+[  4]  2.0- 3.0 sec  37.4 MBytes    313 Mbits/sec
+[  4]  3.0- 4.0 sec  37.7 MBytes    316 Mbits/sec
+[  4]  4.0- 5.0 sec  37.7 MBytes    316 Mbits/sec
+[  4]  5.0- 6.0 sec  37.8 MBytes    317 Mbits/sec
+[  4]  6.0- 7.0 sec  37.3 MBytes    313 Mbits/sec
+[  4]  7.0- 8.0 sec  37.6 MBytes    315 Mbits/sec
+[  4]  8.0- 9.0 sec  36.7 MBytes    308 Mbits/sec
+[  4]  9.0-10.0 sec  37.7 MBytes    316 Mbits/sec
+[  4] 10.0-11.0 sec  36.8 MBytes    309 Mbits/sec
+[  4] 11.0-12.0 sec  37.5 MBytes    315 Mbits/sec
+[  4] 12.0-13.0 sec  37.5 MBytes    314 Mbits/sec
+[  4]  0.0-13.4 sec    500 MBytes    313 Mbits/sec

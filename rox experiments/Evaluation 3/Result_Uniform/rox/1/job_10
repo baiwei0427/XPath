@@ -1,0 +1,20 @@
+------------------------------------------------------------
+Client connecting to 192.168.12.1, TCP port 5280
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  4] local 192.168.15.1 port 45675 connected with 192.168.12.1 port 5280
+[ ID] Interval       Transfer     Bandwidth
+[  4]  0.0- 1.0 sec  43.9 MBytes    368 Mbits/sec
+[  4]  1.0- 2.0 sec  35.7 MBytes    299 Mbits/sec
+[  4]  2.0- 3.0 sec  36.4 MBytes    305 Mbits/sec
+[  4]  3.0- 4.0 sec  34.4 MBytes    289 Mbits/sec
+[  4]  4.0- 5.0 sec  30.2 MBytes    253 Mbits/sec
+[  4]  5.0- 6.0 sec  40.6 MBytes    341 Mbits/sec
+[  4]  6.0- 7.0 sec  39.5 MBytes    332 Mbits/sec
+[  4]  7.0- 8.0 sec  38.1 MBytes    320 Mbits/sec
+[  4]  8.0- 9.0 sec  36.4 MBytes    305 Mbits/sec
+[  4]  9.0-10.0 sec  38.0 MBytes    319 Mbits/sec
+[  4] 10.0-11.0 sec  34.4 MBytes    289 Mbits/sec
+[  4] 11.0-12.0 sec  30.9 MBytes    260 Mbits/sec
+[  4] 12.0-13.0 sec  42.9 MBytes    360 Mbits/sec
+[  4]  0.0-13.1 sec    488 MBytes    312 Mbits/sec

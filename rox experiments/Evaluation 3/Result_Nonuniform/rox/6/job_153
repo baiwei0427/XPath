@@ -1,0 +1,14 @@
+------------------------------------------------------------
+Client connecting to 192.168.12.3, TCP port 7153
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  5] local 192.168.15.3 port 57207 connected with 192.168.12.3 port 7153
+[ ID] Interval       Transfer     Bandwidth
+[  5]  0.0- 1.0 sec  38.4 MBytes    322 Mbits/sec
+[  5]  1.0- 2.0 sec  37.9 MBytes    318 Mbits/sec
+[  5]  2.0- 3.0 sec  37.2 MBytes    312 Mbits/sec
+[  5]  3.0- 4.0 sec  38.0 MBytes    319 Mbits/sec
+[  5]  4.0- 5.0 sec  38.3 MBytes    321 Mbits/sec
+[  5]  5.0- 6.0 sec  37.2 MBytes    312 Mbits/sec
+[  5]  6.0- 7.0 sec  37.8 MBytes    317 Mbits/sec
+[  5]  0.0- 7.9 sec    300 MBytes    318 Mbits/sec

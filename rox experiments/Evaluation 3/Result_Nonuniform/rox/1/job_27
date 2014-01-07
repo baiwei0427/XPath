@@ -1,0 +1,8 @@
+------------------------------------------------------------
+Client connecting to 192.168.13.3, TCP port 7027
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  4] local 192.168.16.3 port 32771 connected with 192.168.13.3 port 7027
+[ ID] Interval       Transfer     Bandwidth
+[  4]  0.0- 1.0 sec  40.7 MBytes    342 Mbits/sec
+[  4]  0.0- 1.1 sec  50.0 MBytes    373 Mbits/sec

@@ -1,0 +1,67 @@
+41_1.pcap
+107us
+119us
+144us
+140us
+130us
+39ms Delay ACK
+
+42_1.pcap
+113us
+105us
+180us
+179us
+137us
+38ms Delay ACK
+
+43_1.pcap
+131us
+373us
+390us
+396us
+171us
+217us
+195us
+39ms Delay ACK
+
+44_1.pcap
+342us
+176us
+200us
+206us
+260us
+260us
+242us
+39ms Delay ACK
+
+45_1.pcap
+116us
+108us
+216us
+199us
+174us
+37ms Delay ACK
+
+46_1.pcap
+129us
+245us
+269us
+200us
+207us
+36ms Delay ACK
+
+47_1.pcap
+1000us
+134us
+190us
+1739us
+1672us
+40ms Delay ACK
+
+48_1.pcap
+130us
+120us
+178us
+213us
+175us
+37ms Delay ACK

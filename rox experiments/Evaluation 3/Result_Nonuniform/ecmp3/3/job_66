@@ -1,0 +1,21 @@
+------------------------------------------------------------
+Client connecting to 192.168.12.1, TCP port 6066
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  5] local 192.168.15.3 port 34743 connected with 192.168.12.1 port 6066
+[ ID] Interval       Transfer     Bandwidth
+[  5]  0.0- 1.0 sec  20.3 MBytes    170 Mbits/sec
+[  5]  1.0- 2.0 sec  8.20 MBytes  68.8 Mbits/sec
+[  5]  2.0- 3.0 sec  10.8 MBytes  90.7 Mbits/sec
+[  5]  3.0- 4.0 sec  9.57 MBytes  80.3 Mbits/sec
+[  5]  4.0- 5.0 sec  8.70 MBytes  72.9 Mbits/sec
+[  5]  5.0- 6.0 sec  9.07 MBytes  76.1 Mbits/sec
+[  5]  6.0- 7.0 sec  11.1 MBytes  92.8 Mbits/sec
+[  5]  7.0- 8.0 sec  8.20 MBytes  68.8 Mbits/sec
+[  5]  8.0- 9.0 sec  9.57 MBytes  80.3 Mbits/sec
+[  5]  9.0-10.0 sec  7.95 MBytes  66.7 Mbits/sec
+[  5] 10.0-11.0 sec  11.1 MBytes  92.8 Mbits/sec
+[  5] 11.0-12.0 sec  11.2 MBytes  93.8 Mbits/sec
+[  5] 12.0-13.0 sec  10.2 MBytes  85.5 Mbits/sec
+[  5] 13.0-14.0 sec  10.9 MBytes  91.8 Mbits/sec
+[  5]  0.0-14.4 sec    150 MBytes  87.7 Mbits/sec

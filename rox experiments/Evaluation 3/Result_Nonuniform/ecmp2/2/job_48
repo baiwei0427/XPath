@@ -1,0 +1,14 @@
+------------------------------------------------------------
+Client connecting to 192.168.13.1, TCP port 6048
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  4] local 192.168.16.3 port 58510 connected with 192.168.13.1 port 6048
+[ ID] Interval       Transfer     Bandwidth
+[  4]  0.0- 1.0 sec  19.6 MBytes    165 Mbits/sec
+[  4]  1.0- 2.0 sec  10.2 MBytes  86.0 Mbits/sec
+[  4]  2.0- 3.0 sec  9.51 MBytes  79.8 Mbits/sec
+[  4]  3.0- 4.0 sec  10.6 MBytes  89.1 Mbits/sec
+[  4]  4.0- 5.0 sec  12.0 MBytes    101 Mbits/sec
+[  4]  5.0- 6.0 sec  14.7 MBytes    123 Mbits/sec
+[  4]  6.0- 7.0 sec  13.0 MBytes    109 Mbits/sec
+[  4]  0.0- 7.5 sec    100 MBytes    111 Mbits/sec

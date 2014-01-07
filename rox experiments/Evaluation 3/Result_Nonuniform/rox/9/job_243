@@ -1,0 +1,19 @@
+------------------------------------------------------------
+Client connecting to 192.168.13.3, TCP port 7243
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  4] local 192.168.16.3 port 44388 connected with 192.168.13.3 port 7243
+[ ID] Interval       Transfer     Bandwidth
+[  4]  0.0- 1.0 sec  36.5 MBytes    306 Mbits/sec
+[  4]  1.0- 2.0 sec  36.9 MBytes    309 Mbits/sec
+[  4]  2.0- 3.0 sec  36.7 MBytes    307 Mbits/sec
+[  4]  3.0- 4.0 sec  36.0 MBytes    302 Mbits/sec
+[  4]  4.0- 5.0 sec  36.7 MBytes    308 Mbits/sec
+[  4]  5.0- 6.0 sec  36.8 MBytes    309 Mbits/sec
+[  4]  6.0- 7.0 sec  36.9 MBytes    310 Mbits/sec
+[  4]  7.0- 8.0 sec  36.6 MBytes    307 Mbits/sec
+[  4]  8.0- 9.0 sec  37.0 MBytes    311 Mbits/sec
+[  4]  9.0-10.0 sec  36.9 MBytes    310 Mbits/sec
+[  4] 10.0-11.0 sec  36.4 MBytes    305 Mbits/sec
+[  4] 11.0-12.0 sec  36.8 MBytes    309 Mbits/sec
+[  4]  0.0-12.3 sec    450 MBytes    308 Mbits/sec

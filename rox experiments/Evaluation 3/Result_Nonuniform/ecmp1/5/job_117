@@ -1,0 +1,44 @@
+------------------------------------------------------------
+Client connecting to 192.168.11.3, TCP port 6117
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  5] local 192.168.14.3 port 52586 connected with 192.168.11.3 port 6117
+[ ID] Interval       Transfer     Bandwidth
+[  5]  0.0- 1.0 sec  10.6 MBytes  88.5 Mbits/sec
+[  5]  1.0- 2.0 sec  5.63 MBytes  47.3 Mbits/sec
+[  5]  2.0- 3.0 sec  6.98 MBytes  58.5 Mbits/sec
+[  5]  3.0- 4.0 sec  6.66 MBytes  55.8 Mbits/sec
+[  5]  4.0- 5.0 sec  5.82 MBytes  48.8 Mbits/sec
+[  5]  5.0- 6.0 sec  6.80 MBytes  57.1 Mbits/sec
+[  5]  6.0- 7.0 sec  6.61 MBytes  55.4 Mbits/sec
+[  5]  7.0- 8.0 sec  7.31 MBytes  61.3 Mbits/sec
+[  5]  8.0- 9.0 sec  8.00 MBytes  67.1 Mbits/sec
+[  5]  9.0-10.0 sec  6.66 MBytes  55.8 Mbits/sec
+[  5] 10.0-11.0 sec  6.20 MBytes  52.0 Mbits/sec
+[  5] 11.0-12.0 sec  7.68 MBytes  64.4 Mbits/sec
+[  5] 12.0-13.0 sec  6.72 MBytes  56.4 Mbits/sec
+[  5] 13.0-14.0 sec  7.85 MBytes  65.9 Mbits/sec
+[  5] 14.0-15.0 sec  7.02 MBytes  58.9 Mbits/sec
+[  5] 15.0-16.0 sec  6.98 MBytes  58.5 Mbits/sec
+[  5] 16.0-17.0 sec  6.09 MBytes  51.1 Mbits/sec
+[  5] 17.0-18.0 sec  8.12 MBytes  68.2 Mbits/sec
+[  5] 18.0-19.0 sec  8.41 MBytes  70.5 Mbits/sec
+[  5] 19.0-20.0 sec  7.85 MBytes  65.9 Mbits/sec
+[  5] 20.0-21.0 sec  6.81 MBytes  57.1 Mbits/sec
+[  5] 21.0-22.0 sec  5.47 MBytes  45.9 Mbits/sec
+[  5] 22.0-23.0 sec  5.70 MBytes  47.8 Mbits/sec
+[  5] 23.0-24.0 sec  7.43 MBytes  62.3 Mbits/sec
+[  5] 24.0-25.0 sec  7.16 MBytes  60.0 Mbits/sec
+[  5] 25.0-26.0 sec  8.20 MBytes  68.8 Mbits/sec
+[  5] 26.0-27.0 sec  5.88 MBytes  49.3 Mbits/sec
+[  5] 27.0-28.0 sec  5.28 MBytes  44.3 Mbits/sec
+[  5] 28.0-29.0 sec  4.59 MBytes  38.5 Mbits/sec
+[  5] 29.0-30.0 sec  5.82 MBytes  48.8 Mbits/sec
+[  5] 30.0-31.0 sec  6.03 MBytes  50.6 Mbits/sec
+[  5] 31.0-32.0 sec  4.73 MBytes  39.6 Mbits/sec
+[  5] 32.0-33.0 sec  6.01 MBytes  50.4 Mbits/sec
+[  5] 33.0-34.0 sec  5.91 MBytes  49.6 Mbits/sec
+[  5] 34.0-35.0 sec  7.07 MBytes  59.3 Mbits/sec
+[  5] 35.0-36.0 sec  5.25 MBytes  44.0 Mbits/sec
+[  5] 36.0-37.0 sec  7.01 MBytes  58.8 Mbits/sec
+[  5]  0.0-37.3 sec    250 MBytes  56.2 Mbits/sec

@@ -1,0 +1,29 @@
+------------------------------------------------------------
+Client connecting to 192.168.11.1, TCP port 6084
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  4] local 192.168.14.3 port 48523 connected with 192.168.11.1 port 6084
+[ ID] Interval       Transfer     Bandwidth
+[  4]  0.0- 1.0 sec  17.9 MBytes    150 Mbits/sec
+[  4]  1.0- 2.0 sec  9.40 MBytes  78.8 Mbits/sec
+[  4]  2.0- 3.0 sec  9.20 MBytes  77.1 Mbits/sec
+[  4]  3.0- 4.0 sec  6.27 MBytes  52.6 Mbits/sec
+[  4]  4.0- 5.0 sec  7.09 MBytes  59.4 Mbits/sec
+[  4]  5.0- 6.0 sec  9.13 MBytes  76.6 Mbits/sec
+[  4]  6.0- 7.0 sec  7.02 MBytes  58.9 Mbits/sec
+[  4]  7.0- 8.0 sec  9.63 MBytes  80.8 Mbits/sec
+[  4]  8.0- 9.0 sec  7.77 MBytes  65.1 Mbits/sec
+[  4]  9.0-10.0 sec  7.90 MBytes  66.3 Mbits/sec
+[  4] 10.0-11.0 sec  8.70 MBytes  72.9 Mbits/sec
+[  4] 11.0-12.0 sec  6.77 MBytes  56.8 Mbits/sec
+[  4] 12.0-13.0 sec  8.02 MBytes  67.2 Mbits/sec
+[  4] 13.0-14.0 sec  9.51 MBytes  79.8 Mbits/sec
+[  4] 14.0-15.0 sec  8.45 MBytes  70.9 Mbits/sec
+[  4] 15.0-16.0 sec  7.83 MBytes  65.7 Mbits/sec
+[  4] 16.0-17.0 sec  9.57 MBytes  80.3 Mbits/sec
+[  4] 17.0-18.0 sec  8.83 MBytes  74.1 Mbits/sec
+[  4] 18.0-19.0 sec  7.89 MBytes  66.2 Mbits/sec
+[  4] 19.0-20.0 sec  8.89 MBytes  74.6 Mbits/sec
+[  4] 20.0-21.0 sec  8.51 MBytes  71.4 Mbits/sec
+[  4] 21.0-22.0 sec  8.95 MBytes  75.1 Mbits/sec
+[  4]  0.0-22.9 sec    200 MBytes  73.4 Mbits/sec

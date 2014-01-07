@@ -1,0 +1,31 @@
+------------------------------------------------------------
+Client connecting to 192.168.13.1, TCP port 6102
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  5] local 192.168.16.3 port 47831 connected with 192.168.13.1 port 6102
+[ ID] Interval       Transfer     Bandwidth
+[  5]  0.0- 1.0 sec  12.4 MBytes    104 Mbits/sec
+[  5]  1.0- 2.0 sec  7.09 MBytes  59.4 Mbits/sec
+[  5]  2.0- 3.0 sec  7.70 MBytes  64.6 Mbits/sec
+[  5]  3.0- 4.0 sec  6.71 MBytes  56.3 Mbits/sec
+[  5]  4.0- 5.0 sec  5.59 MBytes  46.9 Mbits/sec
+[  5]  5.0- 6.0 sec  6.15 MBytes  51.6 Mbits/sec
+[  5]  6.0- 7.0 sec  7.46 MBytes  62.6 Mbits/sec
+[  5]  7.0- 8.0 sec  6.02 MBytes  50.5 Mbits/sec
+[  5]  8.0- 9.0 sec  6.71 MBytes  56.3 Mbits/sec
+[  5]  9.0-10.0 sec  6.03 MBytes  50.6 Mbits/sec
+[  5] 10.0-11.0 sec  8.14 MBytes  68.3 Mbits/sec
+[  5] 11.0-12.0 sec  7.02 MBytes  58.9 Mbits/sec
+[  5] 12.0-13.0 sec  7.20 MBytes  60.4 Mbits/sec
+[  5] 13.0-14.0 sec  6.22 MBytes  52.2 Mbits/sec
+[  5] 14.0-15.0 sec  6.15 MBytes  51.6 Mbits/sec
+[  5] 15.0-16.0 sec  7.02 MBytes  58.9 Mbits/sec
+[  5] 16.0-17.0 sec  6.84 MBytes  57.3 Mbits/sec
+[  5] 17.0-18.0 sec  8.21 MBytes  68.9 Mbits/sec
+[  5] 18.0-19.0 sec  8.02 MBytes  67.2 Mbits/sec
+[  5] 19.0-20.0 sec  7.70 MBytes  64.6 Mbits/sec
+[  5] 20.0-21.0 sec  6.77 MBytes  56.8 Mbits/sec
+[  5] 21.0-22.0 sec  6.59 MBytes  55.2 Mbits/sec
+[  5] 22.0-23.0 sec  11.6 MBytes  97.0 Mbits/sec
+[  5] 23.0-24.0 sec  22.6 MBytes    190 Mbits/sec
+[  5]  0.0-24.4 sec    200 MBytes  68.7 Mbits/sec

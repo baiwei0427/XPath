@@ -1,0 +1,82 @@
+------------------------------------------------------------
+Client connecting to 192.168.13.3, TCP port 6052
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  4] local 192.168.16.1 port 60538 connected with 192.168.13.3 port 6052
+[ ID] Interval       Transfer     Bandwidth
+[  4]  0.0- 1.0 sec  10.4 MBytes  87.1 Mbits/sec
+[  4]  1.0- 2.0 sec  9.23 MBytes  77.5 Mbits/sec
+[  4]  2.0- 3.0 sec  10.1 MBytes  85.0 Mbits/sec
+[  4]  3.0- 4.0 sec  10.6 MBytes  89.3 Mbits/sec
+[  4]  4.0- 5.0 sec  9.23 MBytes  77.4 Mbits/sec
+[  4]  5.0- 6.0 sec  8.87 MBytes  74.4 Mbits/sec
+[  4]  6.0- 7.0 sec  13.2 MBytes    111 Mbits/sec
+[  4]  7.0- 8.0 sec  14.1 MBytes    118 Mbits/sec
+[  4]  8.0- 9.0 sec  22.3 MBytes    187 Mbits/sec
+[  4]  9.0-10.0 sec  21.8 MBytes    182 Mbits/sec
+[  4] 10.0-11.0 sec  23.3 MBytes    195 Mbits/sec
+[  4] 11.0-12.0 sec  21.8 MBytes    183 Mbits/sec
+[  4] 12.0-13.0 sec  17.1 MBytes    144 Mbits/sec
+[  4] 13.0-14.0 sec  20.0 MBytes    168 Mbits/sec
+[  4] 14.0-15.0 sec  23.2 MBytes    194 Mbits/sec
+[  4] 15.0-16.0 sec  18.3 MBytes    153 Mbits/sec
+[  4] 16.0-17.0 sec  22.2 MBytes    186 Mbits/sec
+[  4] 17.0-18.0 sec  21.6 MBytes    182 Mbits/sec
+[  4] 18.0-19.0 sec  19.2 MBytes    161 Mbits/sec
+[  4] 19.0-20.0 sec  21.6 MBytes    181 Mbits/sec
+[  4] 20.0-21.0 sec  21.3 MBytes    179 Mbits/sec
+[  4] 21.0-22.0 sec  20.1 MBytes    168 Mbits/sec
+[  4] 22.0-23.0 sec  21.8 MBytes    183 Mbits/sec
+[  4] 23.0-24.0 sec  21.3 MBytes    179 Mbits/sec
+[  4] 24.0-25.0 sec  28.4 MBytes    238 Mbits/sec
+[  4] 25.0-26.0 sec  21.0 MBytes    176 Mbits/sec
+[  4] 26.0-27.0 sec  26.1 MBytes    219 Mbits/sec
+[  4] 27.0-28.0 sec  21.5 MBytes    180 Mbits/sec
+[  4] 28.0-29.0 sec  18.8 MBytes    158 Mbits/sec
+[  4] 29.0-30.0 sec  19.0 MBytes    160 Mbits/sec
+[  4] 30.0-31.0 sec  18.4 MBytes    155 Mbits/sec
+[  4] 31.0-32.0 sec  20.4 MBytes    171 Mbits/sec
+[  4] 32.0-33.0 sec  23.2 MBytes    195 Mbits/sec
+[  4] 33.0-34.0 sec  19.0 MBytes    159 Mbits/sec
+[  4] 34.0-35.0 sec  23.2 MBytes    195 Mbits/sec
+[  4] 35.0-36.0 sec  25.8 MBytes    216 Mbits/sec
+[  4] 36.0-37.0 sec  25.7 MBytes    216 Mbits/sec
+[  4] 37.0-38.0 sec  24.0 MBytes    202 Mbits/sec
+[  4] 38.0-39.0 sec  24.3 MBytes    204 Mbits/sec
+[  4] 39.0-40.0 sec  24.6 MBytes    206 Mbits/sec
+[  4] 40.0-41.0 sec  21.3 MBytes    179 Mbits/sec
+[  4] 41.0-42.0 sec  21.8 MBytes    183 Mbits/sec
+[  4] 42.0-43.0 sec  23.8 MBytes    200 Mbits/sec
+[  4] 43.0-44.0 sec  27.2 MBytes    228 Mbits/sec
+[  4] 44.0-45.0 sec  27.7 MBytes    233 Mbits/sec
+[  4] 45.0-46.0 sec  22.9 MBytes    192 Mbits/sec
+[  4] 46.0-47.0 sec  28.7 MBytes    241 Mbits/sec
+[  4] 47.0-48.0 sec  32.5 MBytes    272 Mbits/sec
+[  4] 48.0-49.0 sec  31.6 MBytes    265 Mbits/sec
+[  4] 49.0-50.0 sec  31.8 MBytes    266 Mbits/sec
+[  4] 50.0-51.0 sec  28.4 MBytes    238 Mbits/sec
+[  4] 51.0-52.0 sec  30.6 MBytes    257 Mbits/sec
+[  4] 52.0-53.0 sec  28.9 MBytes    242 Mbits/sec
+[  4] 53.0-54.0 sec  27.9 MBytes    234 Mbits/sec
+[  4] 54.0-55.0 sec  33.0 MBytes    277 Mbits/sec
+[  4] 55.0-56.0 sec  31.7 MBytes    266 Mbits/sec
+[  4] 56.0-57.0 sec  29.4 MBytes    247 Mbits/sec
+[  4] 57.0-58.0 sec  27.6 MBytes    231 Mbits/sec
+[  4] 58.0-59.0 sec  30.5 MBytes    256 Mbits/sec
+[  4] 59.0-60.0 sec  30.4 MBytes    255 Mbits/sec
+[  4] 60.0-61.0 sec  32.1 MBytes    269 Mbits/sec
+[  4] 61.0-62.0 sec  29.1 MBytes    244 Mbits/sec
+[  4] 62.0-63.0 sec  30.2 MBytes    253 Mbits/sec
+[  4] 63.0-64.0 sec  42.4 MBytes    356 Mbits/sec
+[  4] 64.0-65.0 sec  44.5 MBytes    373 Mbits/sec
+[  4] 65.0-66.0 sec  37.7 MBytes    316 Mbits/sec
+[  4] 66.0-67.0 sec  47.3 MBytes    396 Mbits/sec
+[  4] 67.0-68.0 sec  46.1 MBytes    387 Mbits/sec
+[  4] 68.0-69.0 sec  39.9 MBytes    335 Mbits/sec
+[  4] 69.0-70.0 sec  47.7 MBytes    400 Mbits/sec
+[  4] 70.0-71.0 sec  44.5 MBytes    373 Mbits/sec
+[  4] 71.0-72.0 sec  45.2 MBytes    379 Mbits/sec
+[  4] 72.0-73.0 sec  45.6 MBytes    383 Mbits/sec
+[  4] 73.0-74.0 sec  45.0 MBytes    377 Mbits/sec
+[  4] 74.0-75.0 sec  39.5 MBytes    332 Mbits/sec
+[  4]  0.0-75.7 sec  1.95 GBytes    222 Mbits/sec

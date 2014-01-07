@@ -1,0 +1,16 @@
+------------------------------------------------------------
+Client connecting to 192.168.13.2, TCP port 5018
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  4] local 192.168.16.3 port 52006 connected with 192.168.13.2 port 5018
+[ ID] Interval       Transfer     Bandwidth
+[  4]  0.0- 1.0 sec  9.77 MBytes  82.0 Mbits/sec
+[  4]  1.0- 2.0 sec  10.1 MBytes  84.3 Mbits/sec
+[  4]  2.0- 3.0 sec  10.6 MBytes  89.1 Mbits/sec
+[  4]  3.0- 4.0 sec  9.06 MBytes  76.0 Mbits/sec
+[  4]  4.0- 5.0 sec  10.2 MBytes  85.9 Mbits/sec
+[  4]  5.0- 6.0 sec  10.2 MBytes  85.7 Mbits/sec
+[  4]  6.0- 7.0 sec  9.81 MBytes  82.3 Mbits/sec
+[  4]  7.0- 8.0 sec  13.0 MBytes    109 Mbits/sec
+[  4]  8.0- 9.0 sec  12.3 MBytes    103 Mbits/sec
+[  4]  0.0- 9.2 sec  97.7 MBytes  89.4 Mbits/sec

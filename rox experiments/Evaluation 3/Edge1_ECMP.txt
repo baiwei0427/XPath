@@ -1,0 +1,20 @@
+set interface ecmp hash-mapping field ingress-interface disable false 
+set interface ecmp hash-mapping field ip-destination disable false 
+set interface ecmp hash-mapping field ip-protocol disable false 
+set interface ecmp hash-mapping field ip-source disable false 
+set interface ecmp hash-mapping field port-destination disable false 
+set interface ecmp hash-mapping field port-source disable false 
+set interface ecmp hash-mapping field vlan disable false 
+
+commit 
+
+set protocols static route 192.168.0.0/16 next-hop 10.0.1.2
+set protocols static route 192.168.0.0/16 qualified-next-hop 10.0.2.2 metric 1
+set protocols static route 192.168.0.0/16 qualified-next-hop 10.0.3.2 metric 1
+set protocols static route 192.168.0.0/16 qualified-next-hop 10.0.4.2 metric 1
+set protocols static route 192.168.0.0/16 qualified-next-hop 10.0.5.2 metric 1
+set protocols static route 192.168.0.0/16 qualified-next-hop 10.0.6.2 metric 1
+set protocols static route 192.168.0.0/16 qualified-next-hop 10.0.7.2 metric 1
+set protocols static route 192.168.0.0/16 qualified-next-hop 10.0.8.2 metric 1
+set protocols static route 192.168.0.0/16 qualified-next-hop 10.0.9.2 metric 1
+commit

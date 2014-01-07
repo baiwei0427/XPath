@@ -1,0 +1,23 @@
+------------------------------------------------------------
+Client connecting to 192.168.12.1, TCP port 6011
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  5] local 192.168.15.2 port 37471 connected with 192.168.12.1 port 6011
+[ ID] Interval       Transfer     Bandwidth
+[  5]  0.0- 1.0 sec  10.3 MBytes  86.7 Mbits/sec
+[  5]  1.0- 2.0 sec  7.49 MBytes  62.8 Mbits/sec
+[  5]  2.0- 3.0 sec  7.36 MBytes  61.7 Mbits/sec
+[  5]  3.0- 4.0 sec  8.08 MBytes  67.8 Mbits/sec
+[  5]  4.0- 5.0 sec  9.01 MBytes  75.6 Mbits/sec
+[  5]  5.0- 6.0 sec  11.2 MBytes  94.4 Mbits/sec
+[  5]  6.0- 7.0 sec  7.52 MBytes  63.0 Mbits/sec
+[  5]  7.0- 8.0 sec  11.6 MBytes  97.0 Mbits/sec
+[  5]  8.0- 9.0 sec  8.02 MBytes  67.2 Mbits/sec
+[  5]  9.0-10.0 sec  10.5 MBytes  88.1 Mbits/sec
+[  5] 10.0-11.0 sec  13.9 MBytes    117 Mbits/sec
+[  5] 11.0-12.0 sec  12.4 MBytes    104 Mbits/sec
+[  5] 12.0-13.0 sec  14.9 MBytes    125 Mbits/sec
+[  5] 13.0-14.0 sec  15.5 MBytes    130 Mbits/sec
+[  5] 14.0-15.0 sec  25.2 MBytes    212 Mbits/sec
+[  5] 15.0-16.0 sec  24.0 MBytes    202 Mbits/sec
+[  5]  0.0-16.1 sec    200 MBytes    104 Mbits/sec

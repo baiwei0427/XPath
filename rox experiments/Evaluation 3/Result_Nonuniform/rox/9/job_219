@@ -1,0 +1,18 @@
+------------------------------------------------------------
+Client connecting to 192.168.11.1, TCP port 7219
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  4] local 192.168.14.3 port 45189 connected with 192.168.11.1 port 7219
+[ ID] Interval       Transfer     Bandwidth
+[  4]  0.0- 1.0 sec  36.6 MBytes    307 Mbits/sec
+[  4]  1.0- 2.0 sec  41.9 MBytes    351 Mbits/sec
+[  4]  2.0- 3.0 sec  36.4 MBytes    305 Mbits/sec
+[  4]  3.0- 4.0 sec  35.1 MBytes    294 Mbits/sec
+[  4]  4.0- 5.0 sec  40.8 MBytes    342 Mbits/sec
+[  4]  5.0- 6.0 sec  38.2 MBytes    320 Mbits/sec
+[  4]  6.0- 7.0 sec  34.0 MBytes    285 Mbits/sec
+[  4]  7.0- 8.0 sec  43.0 MBytes    361 Mbits/sec
+[  4]  8.0- 9.0 sec  40.6 MBytes    341 Mbits/sec
+[  4]  9.0-10.0 sec  42.0 MBytes    353 Mbits/sec
+[  4] 10.0-11.0 sec  39.9 MBytes    335 Mbits/sec
+[  4]  0.0-11.5 sec    450 MBytes    327 Mbits/sec

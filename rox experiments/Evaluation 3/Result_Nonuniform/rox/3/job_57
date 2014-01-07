@@ -1,0 +1,11 @@
+------------------------------------------------------------
+Client connecting to 192.168.11.1, TCP port 7057
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  4] local 192.168.14.3 port 42004 connected with 192.168.11.1 port 7057
+[ ID] Interval       Transfer     Bandwidth
+[  4]  0.0- 1.0 sec  35.2 MBytes    295 Mbits/sec
+[  4]  1.0- 2.0 sec  34.6 MBytes    291 Mbits/sec
+[  4]  2.0- 3.0 sec  39.2 MBytes    329 Mbits/sec
+[  4]  3.0- 4.0 sec  31.2 MBytes    262 Mbits/sec
+[  4]  0.0- 4.3 sec    150 MBytes    295 Mbits/sec

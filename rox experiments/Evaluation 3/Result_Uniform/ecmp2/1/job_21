@@ -1,0 +1,69 @@
+------------------------------------------------------------
+Client connecting to 192.168.13.1, TCP port 8021
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  4] local 192.168.16.3 port 37857 connected with 192.168.13.1 port 8021
+[ ID] Interval       Transfer     Bandwidth
+[  4]  0.0- 1.0 sec  9.53 MBytes  80.0 Mbits/sec
+[  4]  1.0- 2.0 sec  5.91 MBytes  49.5 Mbits/sec
+[  4]  2.0- 3.0 sec  8.23 MBytes  69.0 Mbits/sec
+[  4]  3.0- 4.0 sec  7.95 MBytes  66.7 Mbits/sec
+[  4]  4.0- 5.0 sec  7.66 MBytes  64.2 Mbits/sec
+[  4]  5.0- 6.0 sec  7.27 MBytes  60.9 Mbits/sec
+[  4]  6.0- 7.0 sec  7.03 MBytes  59.0 Mbits/sec
+[  4]  7.0- 8.0 sec  7.59 MBytes  63.6 Mbits/sec
+[  4]  8.0- 9.0 sec  9.59 MBytes  80.4 Mbits/sec
+[  4]  9.0-10.0 sec  6.91 MBytes  57.9 Mbits/sec
+[  4] 10.0-11.0 sec  8.52 MBytes  71.4 Mbits/sec
+[  4] 11.0-12.0 sec  7.59 MBytes  63.7 Mbits/sec
+[  4] 12.0-13.0 sec  8.36 MBytes  70.1 Mbits/sec
+[  4] 13.0-14.0 sec  7.36 MBytes  61.7 Mbits/sec
+[  4] 14.0-15.0 sec  8.64 MBytes  72.5 Mbits/sec
+[  4] 15.0-16.0 sec  8.78 MBytes  73.7 Mbits/sec
+[  4] 16.0-17.0 sec  6.34 MBytes  53.2 Mbits/sec
+[  4] 17.0-18.0 sec  7.16 MBytes  60.1 Mbits/sec
+[  4] 18.0-19.0 sec  6.52 MBytes  54.7 Mbits/sec
+[  4] 19.0-20.0 sec  6.16 MBytes  51.6 Mbits/sec
+[  4] 20.0-21.0 sec  6.84 MBytes  57.4 Mbits/sec
+[  4] 21.0-22.0 sec  6.96 MBytes  58.4 Mbits/sec
+[  4] 22.0-23.0 sec  8.09 MBytes  67.8 Mbits/sec
+[  4] 23.0-24.0 sec  7.66 MBytes  64.3 Mbits/sec
+[  4] 24.0-25.0 sec  9.30 MBytes  78.0 Mbits/sec
+[  4] 25.0-26.0 sec  7.59 MBytes  63.6 Mbits/sec
+[  4] 26.0-27.0 sec  6.77 MBytes  56.8 Mbits/sec
+[  4] 27.0-28.0 sec  7.09 MBytes  59.4 Mbits/sec
+[  4] 28.0-29.0 sec  7.91 MBytes  66.3 Mbits/sec
+[  4] 29.0-30.0 sec  8.28 MBytes  69.5 Mbits/sec
+[  4] 30.0-31.0 sec  6.91 MBytes  57.9 Mbits/sec
+[  4] 31.0-32.0 sec  6.96 MBytes  58.4 Mbits/sec
+[  4] 32.0-33.0 sec  7.48 MBytes  62.7 Mbits/sec
+[  4] 33.0-34.0 sec  8.52 MBytes  71.4 Mbits/sec
+[  4] 34.0-35.0 sec  7.91 MBytes  66.3 Mbits/sec
+[  4] 35.0-36.0 sec  7.72 MBytes  64.7 Mbits/sec
+[  4] 36.0-37.0 sec  6.15 MBytes  51.6 Mbits/sec
+[  4] 37.0-38.0 sec  8.21 MBytes  68.9 Mbits/sec
+[  4] 38.0-39.0 sec  7.03 MBytes  59.0 Mbits/sec
+[  4] 39.0-40.0 sec  6.47 MBytes  54.3 Mbits/sec
+[  4] 40.0-41.0 sec  9.01 MBytes  75.6 Mbits/sec
+[  4] 41.0-42.0 sec  7.84 MBytes  65.8 Mbits/sec
+[  4] 42.0-43.0 sec  6.99 MBytes  58.7 Mbits/sec
+[  4] 43.0-44.0 sec  6.46 MBytes  54.2 Mbits/sec
+[  4] 44.0-45.0 sec  6.35 MBytes  53.3 Mbits/sec
+[  4] 45.0-46.0 sec  7.88 MBytes  66.1 Mbits/sec
+[  4] 46.0-47.0 sec  7.21 MBytes  60.5 Mbits/sec
+[  4] 47.0-48.0 sec  5.30 MBytes  44.4 Mbits/sec
+[  4] 48.0-49.0 sec  6.90 MBytes  57.9 Mbits/sec
+[  4] 49.0-50.0 sec  5.78 MBytes  48.5 Mbits/sec
+[  4] 50.0-51.0 sec  7.74 MBytes  64.9 Mbits/sec
+[  4] 51.0-52.0 sec  8.32 MBytes  69.8 Mbits/sec
+[  4] 52.0-53.0 sec  8.07 MBytes  67.7 Mbits/sec
+[  4] 53.0-54.0 sec  6.96 MBytes  58.4 Mbits/sec
+[  4] 54.0-55.0 sec  6.73 MBytes  56.4 Mbits/sec
+[  4] 55.0-56.0 sec  8.77 MBytes  73.5 Mbits/sec
+[  4] 56.0-57.0 sec  6.85 MBytes  57.5 Mbits/sec
+[  4] 57.0-58.0 sec  7.41 MBytes  62.2 Mbits/sec
+[  4] 58.0-59.0 sec  7.91 MBytes  66.4 Mbits/sec
+[  4] 59.0-60.0 sec  11.7 MBytes  98.5 Mbits/sec
+[  4] 60.0-61.0 sec  11.6 MBytes  97.2 Mbits/sec
+[  4] 61.0-62.0 sec  16.6 MBytes    139 Mbits/sec
+[  4]  0.0-62.3 sec    488 MBytes  65.8 Mbits/sec

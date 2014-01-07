@@ -1,0 +1,13 @@
+------------------------------------------------------------
+Client connecting to 192.168.12.3, TCP port 7126
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  4] local 192.168.15.3 port 38443 connected with 192.168.12.3 port 7126
+[ ID] Interval       Transfer     Bandwidth
+[  4]  0.0- 1.0 sec  37.3 MBytes    313 Mbits/sec
+[  4]  1.0- 2.0 sec  36.9 MBytes    309 Mbits/sec
+[  4]  2.0- 3.0 sec  37.3 MBytes    313 Mbits/sec
+[  4]  3.0- 4.0 sec  37.2 MBytes    312 Mbits/sec
+[  4]  4.0- 5.0 sec  35.4 MBytes    297 Mbits/sec
+[  4]  5.0- 6.0 sec  37.3 MBytes    313 Mbits/sec
+[  4]  0.0- 6.7 sec    250 MBytes    313 Mbits/sec

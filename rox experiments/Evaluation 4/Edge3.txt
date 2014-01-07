@@ -1,0 +1,30 @@
+set vlans vlan-id 2
+set vlans vlan-id 3
+set vlans vlan-id 4
+set vlans vlan-id 5
+
+set interface gigabit-ethernet ge-1/1/1 family ethernet-switching native-vlan-id 2
+set interface gigabit-ethernet ge-1/1/2 family ethernet-switching native-vlan-id 2
+set interface gigabit-ethernet ge-1/1/3 family ethernet-switching native-vlan-id 2
+set interface gigabit-ethernet ge-1/1/4 family ethernet-switching native-vlan-id 3
+set interface gigabit-ethernet ge-1/1/5 family ethernet-switching native-vlan-id 4
+set interface gigabit-ethernet ge-1/1/6 family ethernet-switching native-vlan-id 5
+
+set protocols spanning-tree mstp interface ge-1/1/1 manual-forwarding true
+set protocols spanning-tree mstp interface ge-1/1/2 manual-forwarding true
+set protocols spanning-tree mstp interface ge-1/1/3 manual-forwarding true
+set protocols spanning-tree mstp interface ge-1/1/4 manual-forwarding true
+set protocols spanning-tree mstp interface ge-1/1/5 manual-forwarding true
+set protocols spanning-tree mstp interface ge-1/1/6 manual-forwarding true
+
+set vlans vlan-id 2 l3-interface vlan-2
+set vlans vlan-id 3 l3-interface vlan-3
+set vlans vlan-id 4 l3-interface vlan-4
+set vlans vlan-id 5 l3-interface vlan-5
+
+set vlan-interface interface vlan-2 vif vlan-2 address 192.168.13.254 prefix-length 24
+set vlan-interface interface vlan-3 vif vlan-3 address 10.0.7.1 prefix-length 24
+set vlan-interface interface vlan-4 vif vlan-4 address 10.0.8.1 prefix-length 24
+set vlan-interface interface vlan-5 vif vlan-5 address 10.0.9.1 prefix-length 24
+
+commit

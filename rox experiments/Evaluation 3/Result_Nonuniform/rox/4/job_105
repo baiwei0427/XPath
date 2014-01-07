@@ -1,0 +1,12 @@
+------------------------------------------------------------
+Client connecting to 192.168.13.2, TCP port 7105
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  4] local 192.168.16.3 port 42577 connected with 192.168.13.2 port 7105
+[ ID] Interval       Transfer     Bandwidth
+[  4]  0.0- 1.0 sec  35.0 MBytes    294 Mbits/sec
+[  4]  1.0- 2.0 sec  35.8 MBytes    300 Mbits/sec
+[  4]  2.0- 3.0 sec  36.7 MBytes    308 Mbits/sec
+[  4]  3.0- 4.0 sec  36.9 MBytes    309 Mbits/sec
+[  4]  4.0- 5.0 sec  36.4 MBytes    305 Mbits/sec
+[  4]  0.0- 5.4 sec    200 MBytes    311 Mbits/sec

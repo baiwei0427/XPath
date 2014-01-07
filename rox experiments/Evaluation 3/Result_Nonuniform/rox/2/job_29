@@ -1,0 +1,17 @@
+------------------------------------------------------------
+Client connecting to 192.168.11.1, TCP port 7029
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  5] local 192.168.14.2 port 58693 connected with 192.168.11.1 port 7029
+[ ID] Interval       Transfer     Bandwidth
+[  5]  0.0- 1.0 sec  32.9 MBytes    276 Mbits/sec
+[  5]  1.0- 2.0 sec  32.1 MBytes    269 Mbits/sec
+[  5]  2.0- 3.0 sec  40.0 MBytes    336 Mbits/sec
+[  5]  3.0- 4.0 sec  45.7 MBytes    383 Mbits/sec
+[  5]  4.0- 5.0 sec  45.1 MBytes    378 Mbits/sec
+[  5]  5.0- 6.0 sec  35.7 MBytes    299 Mbits/sec
+[  5]  6.0- 7.0 sec  38.0 MBytes    319 Mbits/sec
+[  5]  7.0- 8.0 sec  37.1 MBytes    311 Mbits/sec
+[  5]  8.0- 9.0 sec  44.4 MBytes    372 Mbits/sec
+[  5]  9.0-10.0 sec  40.6 MBytes    341 Mbits/sec
+[  5]  0.0-10.2 sec    400 MBytes    330 Mbits/sec

@@ -1,0 +1,41 @@
+------------------------------------------------------------
+Client connecting to 192.168.11.2, TCP port 6141
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  5] local 192.168.14.3 port 60071 connected with 192.168.11.2 port 6141
+[ ID] Interval       Transfer     Bandwidth
+[  5]  0.0- 1.0 sec  17.9 MBytes    150 Mbits/sec
+[  5]  1.0- 2.0 sec  9.60 MBytes  80.5 Mbits/sec
+[  5]  2.0- 3.0 sec  8.06 MBytes  67.6 Mbits/sec
+[  5]  3.0- 4.0 sec  9.88 MBytes  82.9 Mbits/sec
+[  5]  4.0- 5.0 sec  7.93 MBytes  66.5 Mbits/sec
+[  5]  5.0- 6.0 sec  7.96 MBytes  66.8 Mbits/sec
+[  5]  6.0- 7.0 sec  9.59 MBytes  80.4 Mbits/sec
+[  5]  7.0- 8.0 sec  8.62 MBytes  72.4 Mbits/sec
+[  5]  8.0- 9.0 sec  7.95 MBytes  66.7 Mbits/sec
+[  5]  9.0-10.0 sec  8.08 MBytes  67.8 Mbits/sec
+[  5] 10.0-11.0 sec  8.70 MBytes  73.0 Mbits/sec
+[  5] 11.0-12.0 sec  6.60 MBytes  55.4 Mbits/sec
+[  5] 12.0-13.0 sec  7.52 MBytes  63.0 Mbits/sec
+[  5] 13.0-14.0 sec  9.62 MBytes  80.7 Mbits/sec
+[  5] 14.0-15.0 sec  8.28 MBytes  69.5 Mbits/sec
+[  5] 15.0-16.0 sec  8.13 MBytes  68.2 Mbits/sec
+[  5] 16.0-17.0 sec  7.79 MBytes  65.3 Mbits/sec
+[  5] 17.0-18.0 sec  8.51 MBytes  71.4 Mbits/sec
+[  5] 18.0-19.0 sec  9.49 MBytes  79.6 Mbits/sec
+[  5] 19.0-20.0 sec  8.34 MBytes  69.9 Mbits/sec
+[  5] 20.0-21.0 sec  8.75 MBytes  73.4 Mbits/sec
+[  5] 21.0-22.0 sec  7.44 MBytes  62.4 Mbits/sec
+[  5] 22.0-23.0 sec  7.70 MBytes  64.6 Mbits/sec
+[  5] 23.0-24.0 sec  8.66 MBytes  72.6 Mbits/sec
+[  5] 24.0-25.0 sec  9.20 MBytes  77.2 Mbits/sec
+[  5] 25.0-26.0 sec  6.15 MBytes  51.6 Mbits/sec
+[  5] 26.0-27.0 sec  10.4 MBytes  87.6 Mbits/sec
+[  5] 27.0-28.0 sec  7.03 MBytes  59.0 Mbits/sec
+[  5] 28.0-29.0 sec  7.29 MBytes  61.1 Mbits/sec
+[  5] 29.0-30.0 sec  8.62 MBytes  72.4 Mbits/sec
+[  5] 30.0-31.0 sec  9.15 MBytes  76.7 Mbits/sec
+[  5] 31.0-32.0 sec  9.70 MBytes  81.3 Mbits/sec
+[  5] 32.0-33.0 sec  7.44 MBytes  62.4 Mbits/sec
+[  5] 33.0-34.0 sec  7.40 MBytes  62.1 Mbits/sec
+[  5]  0.0-34.7 sec    300 MBytes  72.5 Mbits/sec

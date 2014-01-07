@@ -1,0 +1,14 @@
+------------------------------------------------------------
+Client connecting to 192.168.11.3, TCP port 7144
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  5] local 192.168.14.3 port 41413 connected with 192.168.11.3 port 7144
+[ ID] Interval       Transfer     Bandwidth
+[  5]  0.0- 1.0 sec  30.8 MBytes    258 Mbits/sec
+[  5]  1.0- 2.0 sec  36.5 MBytes    306 Mbits/sec
+[  5]  2.0- 3.0 sec  41.3 MBytes    347 Mbits/sec
+[  5]  3.0- 4.0 sec  42.5 MBytes    357 Mbits/sec
+[  5]  4.0- 5.0 sec  40.6 MBytes    341 Mbits/sec
+[  5]  5.0- 6.0 sec  28.5 MBytes    239 Mbits/sec
+[  5]  6.0- 7.0 sec  43.2 MBytes    362 Mbits/sec
+[  5]  0.0- 7.9 sec    300 MBytes    320 Mbits/sec

@@ -1,0 +1,13 @@
+set protocols static route 192.168.14.51/32 next-hop 10.0.1.2
+set protocols static route 192.168.14.52/32 next-hop 10.0.2.2
+set protocols static route 192.168.14.53/32 next-hop 10.0.3.2
+
+set protocols static route 192.168.15.51/32 next-hop 10.0.5.2
+set protocols static route 192.168.15.52/32 next-hop 10.0.6.2
+set protocols static route 192.168.15.53/32 next-hop 10.0.4.2
+
+set protocols static route 192.168.16.51/32 next-hop 10.0.9.2
+set protocols static route 192.168.16.52/32 next-hop 10.0.7.2
+set protocols static route 192.168.16.53/32 next-hop 10.0.8.2
+
+commit

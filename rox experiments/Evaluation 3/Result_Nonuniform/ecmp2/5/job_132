@@ -1,0 +1,40 @@
+------------------------------------------------------------
+Client connecting to 192.168.13.2, TCP port 6132
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  5] local 192.168.16.3 port 47366 connected with 192.168.13.2 port 6132
+[ ID] Interval       Transfer     Bandwidth
+[  5]  0.0- 1.0 sec  8.16 MBytes  68.4 Mbits/sec
+[  5]  1.0- 2.0 sec  6.41 MBytes  53.7 Mbits/sec
+[  5]  2.0- 3.0 sec  7.16 MBytes  60.0 Mbits/sec
+[  5]  3.0- 4.0 sec  8.00 MBytes  67.1 Mbits/sec
+[  5]  4.0- 5.0 sec  7.01 MBytes  58.8 Mbits/sec
+[  5]  5.0- 6.0 sec  7.05 MBytes  59.1 Mbits/sec
+[  5]  6.0- 7.0 sec  6.91 MBytes  57.9 Mbits/sec
+[  5]  7.0- 8.0 sec  7.34 MBytes  61.6 Mbits/sec
+[  5]  8.0- 9.0 sec  7.10 MBytes  59.6 Mbits/sec
+[  5]  9.0-10.0 sec  7.73 MBytes  64.9 Mbits/sec
+[  5] 10.0-11.0 sec  7.66 MBytes  64.3 Mbits/sec
+[  5] 11.0-12.0 sec  6.95 MBytes  58.3 Mbits/sec
+[  5] 12.0-13.0 sec  8.46 MBytes  71.0 Mbits/sec
+[  5] 13.0-14.0 sec  7.26 MBytes  60.9 Mbits/sec
+[  5] 14.0-15.0 sec  8.26 MBytes  69.3 Mbits/sec
+[  5] 15.0-16.0 sec  8.84 MBytes  74.1 Mbits/sec
+[  5] 16.0-17.0 sec  6.19 MBytes  51.9 Mbits/sec
+[  5] 17.0-18.0 sec  8.42 MBytes  70.6 Mbits/sec
+[  5] 18.0-19.0 sec  8.35 MBytes  70.1 Mbits/sec
+[  5] 19.0-20.0 sec  7.47 MBytes  62.7 Mbits/sec
+[  5] 20.0-21.0 sec  7.97 MBytes  66.8 Mbits/sec
+[  5] 21.0-22.0 sec  8.36 MBytes  70.1 Mbits/sec
+[  5] 22.0-23.0 sec  9.11 MBytes  76.4 Mbits/sec
+[  5] 23.0-24.0 sec  6.73 MBytes  56.5 Mbits/sec
+[  5] 24.0-25.0 sec  7.73 MBytes  64.8 Mbits/sec
+[  5] 25.0-26.0 sec  7.03 MBytes  59.0 Mbits/sec
+[  5] 26.0-27.0 sec  7.22 MBytes  60.6 Mbits/sec
+[  5] 27.0-28.0 sec  7.45 MBytes  62.5 Mbits/sec
+[  5] 28.0-29.0 sec  6.64 MBytes  55.7 Mbits/sec
+[  5] 29.0-30.0 sec  7.21 MBytes  60.5 Mbits/sec
+[  5] 30.0-31.0 sec  6.26 MBytes  52.5 Mbits/sec
+[  5] 31.0-32.0 sec  6.35 MBytes  53.3 Mbits/sec
+[  5] 32.0-33.0 sec  6.76 MBytes  56.7 Mbits/sec
+[  5]  0.0-33.7 sec    250 MBytes  62.1 Mbits/sec

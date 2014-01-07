@@ -1,0 +1,28 @@
+------------------------------------------------------------
+Client connecting to 192.168.12.3, TCP port 7098
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  5] local 192.168.15.2 port 57759 connected with 192.168.12.3 port 7098
+[ ID] Interval       Transfer     Bandwidth
+[  5]  0.0- 1.0 sec  25.2 MBytes    212 Mbits/sec
+[  5]  1.0- 2.0 sec  36.4 MBytes    305 Mbits/sec
+[  5]  2.0- 3.0 sec  30.8 MBytes    258 Mbits/sec
+[  5]  3.0- 4.0 sec  35.8 MBytes    300 Mbits/sec
+[  5]  4.0- 5.0 sec  34.3 MBytes    288 Mbits/sec
+[  5]  5.0- 6.0 sec  26.1 MBytes    219 Mbits/sec
+[  5]  6.0- 7.0 sec  29.3 MBytes    246 Mbits/sec
+[  5]  7.0- 8.0 sec  30.1 MBytes    253 Mbits/sec
+[  5]  8.0- 9.0 sec  30.6 MBytes    256 Mbits/sec
+[  5]  9.0-10.0 sec  31.7 MBytes    266 Mbits/sec
+[  5] 10.0-11.0 sec  33.2 MBytes    278 Mbits/sec
+[  5] 11.0-12.0 sec  32.9 MBytes    276 Mbits/sec
+[  5] 12.0-13.0 sec  34.3 MBytes    288 Mbits/sec
+[  5] 13.0-14.0 sec  33.2 MBytes    278 Mbits/sec
+[  5] 14.0-15.0 sec  34.3 MBytes    288 Mbits/sec
+[  5] 15.0-16.0 sec  34.3 MBytes    288 Mbits/sec
+[  5] 16.0-17.0 sec  37.8 MBytes    317 Mbits/sec
+[  5] 17.0-18.0 sec  45.4 MBytes    381 Mbits/sec
+[  5] 18.0-19.0 sec  60.9 MBytes    511 Mbits/sec
+[  5] 19.0-20.0 sec  56.1 MBytes    471 Mbits/sec
+[  5] 20.0-21.0 sec  56.0 MBytes    470 Mbits/sec
+[  5]  0.0-21.5 sec    800 MBytes    312 Mbits/sec

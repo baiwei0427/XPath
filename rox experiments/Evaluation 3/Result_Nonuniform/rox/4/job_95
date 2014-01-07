@@ -1,0 +1,25 @@
+------------------------------------------------------------
+Client connecting to 192.168.12.2, TCP port 7095
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  4] local 192.168.15.2 port 35014 connected with 192.168.12.2 port 7095
+[ ID] Interval       Transfer     Bandwidth
+[  4]  0.0- 1.0 sec  40.0 MBytes    335 Mbits/sec
+[  4]  1.0- 2.0 sec  42.7 MBytes    358 Mbits/sec
+[  4]  2.0- 3.0 sec  36.0 MBytes    302 Mbits/sec
+[  4]  3.0- 4.0 sec  35.9 MBytes    301 Mbits/sec
+[  4]  4.0- 5.0 sec  37.4 MBytes    314 Mbits/sec
+[  4]  5.0- 6.0 sec  52.0 MBytes    436 Mbits/sec
+[  4]  6.0- 7.0 sec  51.3 MBytes    431 Mbits/sec
+[  4]  7.0- 8.0 sec  48.2 MBytes    404 Mbits/sec
+[  4]  8.0- 9.0 sec  49.8 MBytes    418 Mbits/sec
+[  4]  9.0-10.0 sec  45.4 MBytes    381 Mbits/sec
+[  4] 10.0-11.0 sec  44.7 MBytes    375 Mbits/sec
+[  4] 11.0-12.0 sec  46.8 MBytes    392 Mbits/sec
+[  4] 12.0-13.0 sec  42.6 MBytes    358 Mbits/sec
+[  4] 13.0-14.0 sec  45.2 MBytes    379 Mbits/sec
+[  4] 14.0-15.0 sec  45.7 MBytes    383 Mbits/sec
+[  4] 15.0-16.0 sec  42.8 MBytes    359 Mbits/sec
+[  4] 16.0-17.0 sec  44.7 MBytes    375 Mbits/sec
+[  4] 17.0-18.0 sec  41.8 MBytes    351 Mbits/sec
+[  4]  0.0-18.2 sec    800 MBytes    369 Mbits/sec

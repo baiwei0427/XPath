@@ -1,0 +1,9 @@
+------------------------------------------------------------
+Client connecting to 192.168.13.3, TCP port 7054
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  5] local 192.168.16.3 port 35678 connected with 192.168.13.3 port 7054
+[ ID] Interval       Transfer     Bandwidth
+[  5]  0.0- 1.0 sec  36.9 MBytes    309 Mbits/sec
+[  5]  1.0- 2.0 sec  37.0 MBytes    311 Mbits/sec
+[  5]  0.0- 2.7 sec    100 MBytes    311 Mbits/sec

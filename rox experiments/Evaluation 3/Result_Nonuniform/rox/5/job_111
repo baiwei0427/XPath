@@ -1,0 +1,13 @@
+------------------------------------------------------------
+Client connecting to 192.168.11.1, TCP port 7111
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  4] local 192.168.14.3 port 48079 connected with 192.168.11.1 port 7111
+[ ID] Interval       Transfer     Bandwidth
+[  4]  0.0- 1.0 sec  37.2 MBytes    312 Mbits/sec
+[  4]  1.0- 2.0 sec  36.6 MBytes    307 Mbits/sec
+[  4]  2.0- 3.0 sec  43.4 MBytes    364 Mbits/sec
+[  4]  3.0- 4.0 sec  33.0 MBytes    277 Mbits/sec
+[  4]  4.0- 5.0 sec  39.2 MBytes    329 Mbits/sec
+[  4]  5.0- 6.0 sec  38.6 MBytes    324 Mbits/sec
+[  4]  0.0- 6.6 sec    250 MBytes    316 Mbits/sec

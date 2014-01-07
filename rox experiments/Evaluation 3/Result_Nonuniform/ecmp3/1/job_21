@@ -1,0 +1,11 @@
+------------------------------------------------------------
+Client connecting to 192.168.13.1, TCP port 6021
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  5] local 192.168.16.3 port 37516 connected with 192.168.13.1 port 6021
+[ ID] Interval       Transfer     Bandwidth
+[  5]  0.0- 1.0 sec  12.4 MBytes    104 Mbits/sec
+[  5]  1.0- 2.0 sec  9.21 MBytes  77.3 Mbits/sec
+[  5]  2.0- 3.0 sec  10.8 MBytes  90.7 Mbits/sec
+[  5]  3.0- 4.0 sec  10.1 MBytes  84.4 Mbits/sec
+[  5]  0.0- 4.6 sec  50.0 MBytes  90.6 Mbits/sec

@@ -1,0 +1,9 @@
+------------------------------------------------------------
+Client connecting to 192.168.11.3, TCP port 6006
+TCP window size: 16.0 KByte (default)
+------------------------------------------------------------
+[  4] local 192.168.14.3 port 50323 connected with 192.168.11.3 port 6006
+[ ID] Interval       Transfer     Bandwidth
+[  4]  0.0- 1.0 sec  34.8 MBytes    292 Mbits/sec
+[  4]  1.0- 2.0 sec  36.8 MBytes    309 Mbits/sec
+[  4]  0.0- 2.9 sec  97.7 MBytes    286 Mbits/sec
