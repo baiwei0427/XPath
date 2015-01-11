@@ -27,8 +27,8 @@
 #include "hash.h"
 
 MODULE_LICENSE("GPL");
-MODULE_AUTHOR("BAI Wei wbaiab@ust.hk");
-MODULE_VERSION("1.0");
+MODULE_AUTHOR("BAI Wei baiwei0427@gmail.com");
+MODULE_VERSION("1.1");
 MODULE_DESCRIPTION("Driver module in end hosts for RoX");
 MODULE_SUPPORTED_DEVICE(DEVICE_NAME)
 
@@ -75,63 +75,55 @@ static struct Action Search(struct sk_buff *skb,unsigned int direction)
 
         //Initialize a null Action
         Init_Action(&a);
-
         //Initialize a null Rule
         Init_Rule(&r);
-
         //Initialize direction of Rule (incoming 1 or outgoing 2)
         r.direction=direction;
-
         ip_header=(struct iphdr *)skb_network_header(skb);
-
+		
         //The packet is not ip packet (e.g. ARP or others)
-        if (!ip_header)
-        {
-                return a;
-        }
-
+		if (unlikely(ip_header==NULL))
+		{
+			return a;
+		}
         //Get source and destination ip address 
         r.src_ip=(unsigned int)ip_header->saddr;
         r.dst_ip=(unsigned int)ip_header->daddr;
 
-        //This packet is an incoming packet, we don't need more information, dst ip address is enough
-        if(direction==1)
-        {
-                r.src_ip=0; //we don't need to consider souce ip for incoming packets
-                return Search_Table(&rt,&r);
+		//This packet is an incoming packet, we don't need more information, dst ip address is enough
+		if(direction==1)
+		{
+			r.src_ip=0; //we don't need to consider souce ip for incoming packets
+			return Search_Table(&rt,&r);
         }
-
         //Get protocol (TCP,UDP,etc)
         r.protocol=(unsigned int)ip_header->protocol;
 
         //If protocols are TCP/UDP, we need to get source and destination ports
-        if(ip_header->protocol==IPPROTO_TCP) {         //TCP
-
-                tcp_header = (struct tcphdr *)((__u32 *)ip_header+ ip_header->ihl);
-                r.src_port=htons((unsigned short int) tcp_header->source);
-                r.dst_port=htons((unsigned short int) tcp_header->dest);
-        
-        } else if(ip_header->protocol==IPPROTO_UDP) {  //UDP
-
-                udp_header = (struct udphdr *)((__u32 *)ip_header+ ip_header->ihl);
-                r.src_port=htons((unsigned short int) udp_header->source);
-                r.dst_port=htons((unsigned short int) udp_header->dest);
-        
+        if(ip_header->protocol==IPPROTO_TCP) 
+		{         
+			tcp_header = (struct tcphdr *)((__u32 *)ip_header+ ip_header->ihl);
+			r.src_port=htons((unsigned short int) tcp_header->source);
+			r.dst_port=htons((unsigned short int) tcp_header->dest);
+        } 
+		else if(ip_header->protocol==IPPROTO_UDP) 
+		{  
+			udp_header = (struct udphdr *)((__u32 *)ip_header+ ip_header->ihl);
+			r.src_port=htons((unsigned short int) udp_header->source);
+			r.dst_port=htons((unsigned short int) udp_header->dest);
         }
         
         //print_rule(&r);
-        if(r.src_port>=10000) {
-
-                r.src_port=0;
-
-        } else if(r.dst_port>=10000) {
-        
-                r.dst_port=0;
+        if(r.src_port>=10000) 
+		{
+			r.src_port=0;
+        } 
+		else if(r.dst_port>=10000) 
+		{
+			r.dst_port=0;
         }
-
         //Search matching action in RuleTable rt
         return Search_Table(&rt,&r);
-
 }
 
 
@@ -203,53 +195,35 @@ unsigned int hook_func_in(unsigned int hooknum, struct sk_buff *skb, const struc
 		unsigned int tmp=0;
 		unsigned char* b=NULL;
 
-        //We don't listen on eth0
-        if(strcmp(in->name,"eth0")!=0)
-        {
-                //if(skb_linearize(skb)!= 0) 
-                //{
-                //        printk(KERN_INFO "Not linear\n");
-                //        return NF_ACCEPT;
-                //}
 
-                ip_header=(struct iphdr *)skb_network_header(skb);
-                
-                if(ip_header!=NULL)
-                {
-                        //Search matching action 
-                        //spin_lock(&inLock);
-                        //Direction of incoming is 1
-                        read_lock_irqsave(&my_rwlock,flags);
-                        a=Search(skb,1);
-                        read_unlock_irqrestore(&my_rwlock,flags);
-                        //spin_unlock(&inLock);
-                        //printk(KERN_INFO "%u %u\n",a.new_ip,a.mark);
-                        if(a.mark!=0)
-                        {
-                                skb->mark=a.mark;
-                        }
-                        if(a.new_ip!=0||a.dscp!=0)
-                        {
-
-                                //Note that this function skb_make_writable may change sk_buff
-                                if(!skb_make_writable(skb,sizeof(*ip_header)))
-                                {
-                                        printk(KERN_INFO "Not writable\n");
-                                        return NF_ACCEPT;
-                                }
-                                //Get new IP header
-                                ip_header=(struct iphdr *)skb_network_header(skb);
-                                //csum_replace4(&ip_header->check, ip_header->daddr,a.new_ip);
-                                ip_header->daddr=a.new_ip;
-								
-								tmp=a.dscp*4;
-								b=(unsigned char*)&tmp;
-                                ip_header->tos=*b;
-                                
-								ip_header->check=0;
-                                ip_header->check=ip_fast_csum(ip_header,ip_header->ihl);        
-                        }
-                }
+		ip_header=(struct iphdr *)skb_network_header(skb);
+		if(likely(ip_header!=NULL))
+		{
+			//Direction of incoming is 1
+			read_lock_irqsave(&my_rwlock,flags);
+			a=Search(skb,1);
+			read_unlock_irqrestore(&my_rwlock,flags);
+			if(a.mark!=0)
+			{
+				skb->mark=a.mark;
+			}
+			if(a.new_ip!=0||a.dscp!=0)
+			{
+				//Note that this function skb_make_writable may change sk_buff
+				if(!skb_make_writable(skb,sizeof(struct iphdr)))
+				{
+					printk(KERN_INFO "Not writable\n");
+					return NF_ACCEPT;
+				}
+				//Get new IP header
+				ip_header=(struct iphdr *)skb_network_header(skb);
+				ip_header->daddr=a.new_ip;
+				tmp=a.dscp*4;
+				b=(unsigned char*)&tmp;
+				ip_header->tos+=*b;
+				ip_header->check=0;
+				ip_header->check=ip_fast_csum(ip_header,ip_header->ihl);       
+			}
         }
         return NF_ACCEPT;
 }
@@ -263,53 +237,34 @@ unsigned int hook_func_out(unsigned int hooknum, struct sk_buff *skb, const stru
 		unsigned int tmp=0;
 		unsigned char* b=NULL;
 
-        //We don't listen on eth0
-        if(strcmp(out->name,"eth0")!=0)
-        {
-                //if(skb_linearize(skb)!= 0) 
-                //{
-                //        printk(KERN_INFO "Not linear\n");
-                //        return NF_ACCEPT;
-                //}
-
-                ip_header=(struct iphdr *)skb_network_header(skb);
-                
-                if(ip_header!=NULL)
-                {
-                        //Search matching action 
-                        //spin_lock(&outLock);
-                        //Direction of outgoing is 2
-                        read_lock_irqsave(&my_rwlock,flags);
-                        a=Search(skb,2);
-                        read_unlock_irqrestore(&my_rwlock,flags);
-                        //spin_unlock(&outLock);
-                        //printk(KERN_INFO "%u %u\n",a.new_ip,a.mark);
-                        if(a.mark!=0)
-                        {
-                                skb->mark=a.mark;
-                        }
-                        if(a.new_ip!=0||a.dscp!=0)
-                        {
-
-                                //Note that this function skb_make_writable may change sk_buff
-                                if(!skb_make_writable(skb,sizeof(*ip_header)))
-                                {
-                                        printk(KERN_INFO "Not writable\n");
-                                        return NF_ACCEPT;
-                                }
-                                //Get new IP header
-                                ip_header=(struct iphdr *)skb_network_header(skb);
-                                //csum_replace4(&ip_header->check, ip_header->daddr,a.new_ip);
-                                ip_header->daddr=a.new_ip;
-
-                                tmp=a.dscp*4;
-								b=(unsigned char*)&tmp;
-                                ip_header->tos=*b;
-
-                                ip_header->check=0;
-                                ip_header->check=ip_fast_csum(ip_header,ip_header->ihl);        
-                        }
-                }
+		ip_header=(struct iphdr *)skb_network_header(skb);
+		if(likely(ip_header!=NULL))
+		{
+			//Direction of outgoing is 2
+			read_lock_irqsave(&my_rwlock,flags);
+			a=Search(skb,2);
+			read_unlock_irqrestore(&my_rwlock,flags);
+			if(a.mark!=0)
+			{
+				skb->mark=a.mark;
+			}
+			if(a.new_ip!=0||a.dscp!=0)
+			{
+				//Note that this function skb_make_writable may change sk_buff
+				if(!skb_make_writable(skb,sizeof(struct iphdr)))
+				{
+					printk(KERN_INFO "Not writable\n");
+					return NF_ACCEPT;
+				}
+				//Get new IP header
+				ip_header=(struct iphdr *)skb_network_header(skb);
+				ip_header->daddr=a.new_ip;
+				tmp=a.dscp*4;
+				b=(unsigned char*)&tmp;
+				ip_header->tos+=*b;
+				ip_header->check=0;
+				ip_header->check=ip_fast_csum(ip_header,ip_header->ihl);        
+			}
         }
         return NF_ACCEPT;
 }
@@ -333,12 +288,8 @@ static int device_ioctl(struct file *file, unsigned int ioctl_num, unsigned long
 {
         struct Rule* r;
         unsigned long flags;
-        //printk(KERN_INFO "Come into device_ioctl with ioctl_num %u\n",ioctl_num);
-        
-    //spin_lock(&globalLock);
-
-        switch (ioctl_num) {
-
+        switch (ioctl_num) 
+		{
             //Insert a new rule to rules
             case IOCTL_ROX_INSERT_RULE:
                 //printk(KERN_INFO "Inset a new rule\n");
@@ -347,7 +298,7 @@ static int device_ioctl(struct file *file, unsigned int ioctl_num, unsigned long
                 print_rule(r);
                 //Insert this new rule to RuleTable
                 write_lock_irqsave(&my_rwlock,flags);
-                Insert_Table(&rt,r);
+                Insert_Table(&rt,r,GFP_ATOMIC);
                 write_unlock_irqrestore(&my_rwlock,flags);
                 //Print_Table(&rt);
                 break;
@@ -413,43 +364,36 @@ struct file_operations ops = {
 int init_module()
 {
 
-		int ret;
+	int ret;
 
-        //Initialize RuleTable
-        Init_Table(&rt);
-        //printk(KERN_INFO "Initialize RuleTable ",IOCTL_ROX_INSERT_RULE);
+	//Initialize RuleTable
+	Init_Table(&rt);
+	//Initialize clock
+	rwlock_init(&my_rwlock);
+
+	//PREROUTING
+	nfho_incoming.hook = hook_func_in;                    
+	nfho_incoming.hooknum = NF_INET_PRE_ROUTING;         
+	nfho_incoming.pf = PF_INET;                       
+	nfho_incoming.priority = NF_IP_PRI_FIRST;            
+	nf_register_hook(&nfho_incoming);                    
+
+	//POSTROUTING
+	nfho_outgoing.hook = hook_func_out;                    
+	nfho_outgoing.hooknum = NF_INET_POST_ROUTING;       
+	nfho_outgoing.pf = PF_INET;                      
+	nfho_outgoing.priority = NF_IP_PRI_FIRST;           
+	nf_register_hook(&nfho_outgoing);                  
         
-        //Initialize clock
-        rwlock_init(&my_rwlock);
-        //spin_lock_init(&globalLock);
-
-        //PREROUTING
-        nfho_incoming.hook = hook_func_in;                    //function to call when conditions below met
-        nfho_incoming.hooknum = NF_INET_PRE_ROUTING;          //called in pre_routing
-        nfho_incoming.pf = PF_INET;                           //IPV4 packets
-        nfho_incoming.priority = NF_IP_PRI_FIRST;             //set to highest priority over all other hook functions
-        nf_register_hook(&nfho_incoming);                     //register hook
-
-        //POSTROUTING
-        nfho_outgoing.hook = hook_func_out;                       //function to call when conditions below met
-        nfho_outgoing.hooknum = NF_INET_POST_ROUTING;         //called in post_routing
-        nfho_outgoing.pf = PF_INET;                           //IPV4 packets
-        nfho_outgoing.priority = NF_IP_PRI_FIRST;             //set to highest priority over all other hook functions
-        nf_register_hook(&nfho_outgoing);                     //register hook*/
-        
-        //Register device file
-        ret = register_chrdev(MAJOR_NUM, DEVICE_NAME, &ops);
-        if (ret < 0) {
-                printk(KERN_INFO "Registering char device failed with %d\n", MAJOR_NUM);
-                
-                return ret;
-        }
-        printk(KERN_INFO "Registering char device successfully with %d\n", MAJOR_NUM);
-
-        //spin_lock_init(&outLock);
-
-
-        return SUCCESS;
+	//Register device file
+	ret = register_chrdev(MAJOR_NUM, DEVICE_NAME, &ops);
+	if (ret < 0) 
+	{
+		printk(KERN_INFO "Registering char device failed with %d\n", MAJOR_NUM);    
+		return ret;
+	}
+	printk(KERN_INFO "Start RoX kernel module\n", MAJOR_NUM);
+	return SUCCESS;
 }
 
 //Called when module unloaded using 'rmmod'
@@ -459,6 +403,6 @@ void cleanup_module()
         nf_unregister_hook(&nfho_incoming);
         nf_unregister_hook(&nfho_outgoing);  
         Empty_Table(&rt);
-        printk(KERN_INFO "Unregistering char device\n");
+        printk(KERN_INFO "Stop RoX kernel module\n");
 
 }

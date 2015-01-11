@@ -1,9 +1,8 @@
 #ifndef HASH_H
 #define HASH_H
 
-#include <linux/module.h> 
-#include <linux/kernel.h> 
 #include <linux/vmalloc.h>
+#include <linux/slab.h>
 #include "rule.h" //Get def of Rule
 
 #define HASH_RANGE 1024
@@ -113,7 +112,7 @@ static void Init_Table(struct RuleTable* rt)
 //Insert a Rule into a RuleList
 //If the new rule is inserted successfully, return 1
 //Else (e.g. rl->len>=QUEUE_SIZE or the same rule exists), return 0
-static int Insert_List(struct RuleList* rl, struct Rule* r)
+static int Insert_List(struct RuleList* rl, struct Rule* r, int flags)
 {
 	if(rl->len>=QUEUE_SIZE) 
 	{
@@ -124,7 +123,7 @@ static int Insert_List(struct RuleList* rl, struct Rule* r)
 	{
 		//printk(KERN_INFO "Start Insert_List\n");
         struct RuleNode* tmp=rl->head;
-
+		struct RuleNode* buf=NULL;
         //Find the tail of this RuleList
         while(1)
         {
@@ -134,15 +133,24 @@ static int Insert_List(struct RuleList* rl, struct Rule* r)
 				//printk(KERN_INFO "Come to the tail of RuleList\n");
                 //Allocate space for new RuleNode
                 //tmp->next=(struct RuleNode*)vmalloc(sizeof(struct RuleNode));
-                tmp->next=vmalloc(sizeof(struct RuleNode));
-                //Copy data for this new RuleNode
-                tmp->next->r=*r;
-                //Pointer to next RuleNode is NUll
-                tmp->next->next=NULL;
-				//Increase length of RuleList
-                rl->len++;
-                //Finish the insert
-                return 1;
+				buf=kmalloc(sizeof(struct RuleNode),flags);
+				if(buf==NULL)
+				{
+					printk(KERN_INFO "Kmalloc error\n");
+					return 0;
+				}
+				else
+                {
+					tmp->next=buf;
+					//Copy data for this new RuleNode
+					tmp->next->r=*r;
+					//Pointer to next RuleNode is NUll
+					tmp->next->next=NULL;
+					//Increase length of RuleList
+					rl->len++;
+					//Finish the insert
+					return 1;
+				}
 			}
 			//If the rule of next node is the same as our inserted rule, we just replace the old rule rather than add new rule  
 			else if(Equal(&(tmp->next->r),r))
@@ -164,13 +172,13 @@ static int Insert_List(struct RuleList* rl, struct Rule* r)
 }
 
 //Insert a rule to RuleTable
-static void Insert_Table(struct RuleTable* rt,struct Rule* r)
+static void Insert_Table(struct RuleTable* rt,struct Rule* r, int flags)
 {
 		int result=0;
         unsigned int index=Hash(r);
-        printk(KERN_INFO "Insert to RuleList:%u\n",index);
+        //printk(KERN_INFO "Insert to RuleList:%u\n",index);
         //Insert Rule to appropriate RuleList based on Hash value
-        result=Insert_List(&(rt->table[index]),r);
+        result=Insert_List(&(rt->table[index]),r, flags);
         //Increase the size of RuleTable
         rt->size+=result;
         //printk(KERN_INFO "Insert complete\n");
@@ -300,12 +308,12 @@ static int Delete_List(struct RuleList* rl, struct Rule* r)
                                 return 0;
                         }
                         //Find matching rule (matching RuleNode is tmp->next rather than tmp), delete rule and return 1
-                        if(Equal(&(tmp->next->r),r))//tmp->next->r==(*r))
+                        if(Equal(&(tmp->next->r),r))
                         {
                                 struct RuleNode* s=tmp->next;
                                 tmp->next=s->next;
                                 //Delete matching RuleNode from this RuleList
-                                vfree(s);
+                                kfree(s);
                                 //Decrease the length of this RuleList by one
                                 rl->len--;
                                 return 1;
@@ -338,7 +346,14 @@ static void Empty_List(struct RuleList* rl)
         for(Ptr=rl->head;Ptr!=NULL;Ptr=NextNode)
         {
                 NextNode=Ptr->next;
-                vfree(Ptr);
+				if(Ptr==rl->head)
+                {
+					vfree(Ptr);
+				}
+				else
+				{
+					kfree(Ptr);
+				}
         }
         //vfree(rl->head);
         //rl->head=NULL;
