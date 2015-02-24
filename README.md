@@ -1,7 +1,7 @@
-RoX
+XPath
 ===
 
-Routing over eXplicit paths in data center network
+Explicit Path Control in Commodity Data Centers
 
 Keywords
 ===
