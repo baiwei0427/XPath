@@ -1,7 +1,0 @@
-http://wiki.linuxwall.info/doku.php/en:ressources:dossiers:networking:traffic_control
-http://mytestbed.net/projects/1/wiki/NetEM_examples_of_rules
-http://www.linuxfoundation.org/collaborate/workgroups/networking/netem
-
-tc qdisc del dev eth1 root
-tc qdisc add dev eth1 root tbf rate 400mbit limit 600k burst 600k mtu 100000
-1.5±¶µÄ¹ØÏµ
